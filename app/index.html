@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Sarfaraz – HomeoPath AI</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -12,111 +14,362 @@
         }
 
         :root {
-            --myrtle-green: #2D7D32;
-            --keppel: #4CAF50;
-            --azureish-white: #E8F5E8;
+            --primary-turquoise: #06D6A0;
+            --dark-turquoise: #048A81;
+            --light-turquoise: #7FFFD4;
+            --deep-black: #0F0F0F;
+            --charcoal: #1A1A1A;
+            --dark-gray: #2A2A2A;
+            --light-gray: #3A3A3A;
             --pure-white: #FFFFFF;
-            --text-black: #1A1A1A;
-            --shadow: rgba(45, 125, 50, 0.1);
-            --hover-shadow: rgba(45, 125, 50, 0.2);
+            --off-white: #F8F9FA;
+            --accent-cyan: #00FFFF;
+            --success-green: #10B981;
+            --warning-orange: #F59E0B;
+            --danger-red: #EF4444;
+            --glass-bg: rgba(255, 255, 255, 0.1);
+            --glass-border: rgba(255, 255, 255, 0.2);
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, var(--azureish-white) 0%, var(--pure-white) 100%);
-            color: var(--text-black);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, var(--deep-black) 0%, var(--charcoal) 50%, var(--dark-gray) 100%);
+            color: var(--pure-white);
             min-height: 100vh;
             line-height: 1.6;
+            overflow-x: hidden;
         }
 
-        .header {
-            background: linear-gradient(135deg, var(--myrtle-green) 0%, var(--keppel) 100%);
-            color: white;
-            padding: 2rem 0;
+        /* Animated Background */
+        .bg-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+        }
+
+        .bg-animation::before {
+            content: '';
+            position: absolute;
+            width: 200%;
+            height: 200%;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(6, 214, 160, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(0, 255, 255, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 40% 80%, rgba(6, 214, 160, 0.05) 0%, transparent 50%);
+            animation: float 20s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translate(-50%, -50%) rotate(0deg); }
+            50% { transform: translate(-50%, -50%) rotate(180deg); }
+        }
+
+        /* Navigation */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(15, 15, 15, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--glass-border);
+            z-index: 1000;
+            padding: 1rem 0;
+            transition: all 0.3s ease;
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--primary-turquoise), var(--accent-cyan));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-item {
+            cursor: pointer;
+            padding: 0.5rem 1rem;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            position: relative;
+        }
+
+        .nav-item:hover, .nav-item.active {
+            background: var(--glass-bg);
+            color: var(--primary-turquoise);
+            transform: translateY(-2px);
+        }
+
+        .nav-item.active::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 20px;
+            height: 2px;
+            background: var(--primary-turquoise);
+            border-radius: 2px;
+        }
+
+        /* Main Container */
+        .main-container {
+            margin-top: 100px;
+            min-height: calc(100vh - 100px);
+            position: relative;
+        }
+
+        .page {
+            display: none;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        .page.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Home Page */
+        .hero {
             text-align: center;
-            box-shadow: 0 4px 20px var(--shadow);
+            padding: 4rem 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
         }
 
-        .header h1 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--primary-turquoise), var(--accent-cyan), var(--light-turquoise));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.2;
         }
 
-        .header p {
+        .hero .subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            opacity: 0.8;
+            font-weight: 300;
+        }
+
+        .hero .tagline {
             font-size: 1.2rem;
-            opacity: 0.9;
+            margin-bottom: 3rem;
             font-style: italic;
+            color: var(--primary-turquoise);
         }
 
-        .container {
+        .cta-button {
+            background: linear-gradient(135deg, var(--primary-turquoise), var(--dark-turquoise));
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(6, 214, 160, 0.3);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(6, 214, 160, 0.4);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 4rem 2rem;
             max-width: 1200px;
             margin: 0 auto;
-            padding: 2rem;
         }
 
-        .main-content {
+        .feature-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(6, 214, 160, 0.1), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .feature-card:hover::before {
+            left: 100%;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--primary-turquoise);
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            color: var(--primary-turquoise);
+            margin-bottom: 1rem;
+        }
+
+        .feature-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--pure-white);
+        }
+
+        /* Analysis Page */
+        .analysis-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 2rem;
-            margin-bottom: 2rem;
         }
 
-        .card {
-            background: var(--pure-white);
-            border-radius: 15px;
-            padding: 1.5rem;
-            box-shadow: 0 8px 32px var(--shadow);
-            border: 1px solid rgba(76, 175, 80, 0.1);
+        .glass-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            padding: 2rem;
             transition: all 0.3s ease;
         }
 
-        .card:hover {
+        .glass-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 12px 40px var(--hover-shadow);
+            border-color: var(--primary-turquoise);
         }
 
-        .card h2 {
-            color: var(--myrtle-green);
-            margin-bottom: 1rem;
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--glass-border);
+        }
+
+        .card-header i {
             font-size: 1.5rem;
-            border-bottom: 2px solid var(--keppel);
-            padding-bottom: 0.5rem;
+            color: var(--primary-turquoise);
         }
 
-        .selection-area {
-            margin-bottom: 1rem;
+        .card-header h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
         }
 
-        .dropdown {
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: var(--primary-turquoise);
+        }
+
+        .modern-select {
             width: 100%;
-            padding: 12px 16px;
-            border: 2px solid var(--azureish-white);
-            border-radius: 8px;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--glass-border);
+            border-radius: 10px;
+            color: var(--pure-white);
             font-size: 1rem;
-            background: var(--pure-white);
-            color: var(--text-black);
             transition: all 0.3s ease;
         }
 
-        .dropdown:focus {
+        .modern-select:focus {
             outline: none;
-            border-color: var(--keppel);
-            box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.1);
+            border-color: var(--primary-turquoise);
+            box-shadow: 0 0 0 3px rgba(6, 214, 160, 0.2);
         }
 
-        .selection-list {
+        .modern-select option {
+            background: var(--charcoal);
+            color: var(--pure-white);
+        }
+
+        .add-btn {
+            background: linear-gradient(135deg, var(--primary-turquoise), var(--dark-turquoise));
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 10px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
             margin-top: 1rem;
-            max-height: 300px;
+        }
+
+        .add-btn:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(6, 214, 160, 0.3);
+        }
+
+        .add-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .selections-list {
+            max-height: 400px;
             overflow-y: auto;
+            scrollbar-width: thin;
+            scrollbar-color: var(--primary-turquoise) transparent;
         }
 
         .selection-item {
-            background: var(--azureish-white);
-            margin: 0.5rem 0;
-            padding: 0.75rem 1rem;
-            border-radius: 8px;
+            background: rgba(6, 214, 160, 0.1);
+            border: 1px solid rgba(6, 214, 160, 0.2);
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 0.5rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -124,187 +377,424 @@
         }
 
         .selection-item:hover {
-            background: var(--keppel);
-            color: white;
+            background: rgba(6, 214, 160, 0.2);
             transform: translateX(5px);
         }
 
+        .selection-text {
+            font-weight: 500;
+        }
+
         .remove-btn {
-            background: #ff4444;
+            background: var(--danger-red);
             color: white;
             border: none;
             border-radius: 50%;
-            width: 24px;
-            height: 24px;
+            width: 30px;
+            height: 30px;
             cursor: pointer;
-            font-size: 0.8rem;
+            font-size: 1rem;
             transition: all 0.3s ease;
         }
 
         .remove-btn:hover {
-            background: #cc0000;
+            background: #DC2626;
             transform: scale(1.1);
         }
 
-        .recommendations {
+        .clear-all-btn {
+            background: linear-gradient(135deg, var(--danger-red), #DC2626);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 10px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 1rem;
+        }
+
+        .clear-all-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(239, 68, 68, 0.3);
+        }
+
+        /* Results Page */
+        .results-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .results-full {
             grid-column: 1 / -1;
-            margin-top: 2rem;
-        }
-
-        .rec-section {
-            margin-bottom: 2rem;
-        }
-
-        .rec-section h3 {
-            color: var(--myrtle-green);
-            margin-bottom: 1rem;
-            font-size: 1.3rem;
-            padding: 0.5rem 0;
-            border-left: 4px solid var(--keppel);
-            padding-left: 1rem;
         }
 
         .medicine-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 1rem;
+            margin-top: 1rem;
         }
 
-        .medicine-item {
-            background: linear-gradient(135deg, var(--pure-white) 0%, var(--azureish-white) 100%);
-            padding: 1rem;
-            border-radius: 10px;
+        .medicine-card {
+            background: linear-gradient(135deg, rgba(6, 214, 160, 0.1), rgba(0, 255, 255, 0.05));
+            border: 1px solid rgba(6, 214, 160, 0.2);
+            border-radius: 15px;
+            padding: 1.5rem;
             text-align: center;
-            border: 2px solid transparent;
             transition: all 0.3s ease;
             cursor: pointer;
+            position: relative;
+            overflow: hidden;
         }
 
-        .medicine-item:hover {
-            border-color: var(--keppel);
-            transform: translateY(-3px);
-            box-shadow: 0 6px 20px var(--shadow);
+        .medicine-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(6, 214, 160, 0.2), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .medicine-card:hover::before {
+            left: 100%;
+        }
+
+        .medicine-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary-turquoise);
+            box-shadow: 0 15px 40px rgba(6, 214, 160, 0.2);
         }
 
         .medicine-name {
+            font-size: 1.2rem;
             font-weight: 600;
-            color: var(--myrtle-green);
-            font-size: 1.1rem;
+            color: var(--pure-white);
+            margin-bottom: 0.5rem;
         }
 
         .medicine-count {
             font-size: 0.9rem;
-            color: var(--text-black);
-            opacity: 0.7;
-            margin-top: 0.25rem;
+            color: var(--primary-turquoise);
+            font-weight: 500;
         }
 
-        .clear-btn {
-            background: linear-gradient(135deg, var(--myrtle-green) 0%, var(--keppel) 100%);
-            color: white;
-            border: none;
-            padding: 12px 24px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 1rem;
+        .section-title {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--primary-turquoise);
+        }
+
+        .section-title i {
+            font-size: 1.5rem;
+            color: var(--primary-turquoise);
+        }
+
+        .section-title h3 {
+            font-size: 1.5rem;
             font-weight: 600;
-            transition: all 0.3s ease;
-            margin-top: 1rem;
-        }
-
-        .clear-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px var(--shadow);
         }
 
         .empty-state {
             text-align: center;
-            color: var(--text-black);
-            opacity: 0.6;
+            padding: 3rem;
+            color: rgba(255, 255, 255, 0.6);
             font-style: italic;
-            padding: 2rem;
         }
 
+        .empty-state i {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: var(--primary-turquoise);
+            opacity: 0.5;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .nav-menu {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .analysis-container {
+                grid-template-columns: 1fr;
+                padding: 1rem;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+                padding: 2rem 1rem;
+            }
+
+            .results-container {
+                padding: 1rem;
+            }
+        }
+
+        /* Loading Animation */
         .loading {
             display: inline-block;
             width: 20px;
             height: 20px;
-            border: 3px solid var(--azureish-white);
+            border: 2px solid rgba(255, 255, 255, 0.3);
             border-radius: 50%;
-            border-top-color: var(--keppel);
-            animation: spin 1s ease-in-out infinite;
+            border-top-color: var(--primary-turquoise);
+            animation: spin 1s linear infinite;
         }
 
         @keyframes spin {
             to { transform: rotate(360deg); }
         }
 
-        @media (max-width: 768px) {
-            .main-content {
-                grid-template-columns: 1fr;
-            }
-            
-            .header h1 {
-                font-size: 2rem;
-            }
-            
-            .container {
-                padding: 1rem;
-            }
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--charcoal);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--primary-turquoise);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--dark-turquoise);
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>Dr. Sarfaraz – HomeoPath AI</h1>
-        <p>"A precise path through the homeopathic maze."</p>
-    </div>
+    <div class="bg-animation"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-stethoscope"></i> Dr. Sarfaraz AI
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item active" data-page="home">
+                    <i class="fas fa-home"></i> Home
+                </li>
+                <li class="nav-item" data-page="analysis">
+                    <i class="fas fa-search"></i> Analysis
+                </li>
+                <li class="nav-item" data-page="results">
+                    <i class="fas fa-pills"></i> Results
+                </li>
+                <li class="nav-item" data-page="about">
+                    <i class="fas fa-info-circle"></i> About
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    <div class="container">
-        <div class="main-content">
-            <div class="card">
-                <h2>🔍 Select Body Parts & Symptoms</h2>
-                
-                <div class="selection-area">
-                    <select id="bodyPartSelect" class="dropdown">
-                        <option value="">Choose a body part...</option>
-                    </select>
-                </div>
-
-                <div class="selection-area">
-                    <select id="symptomSelect" class="dropdown" disabled>
-                        <option value="">First select a body part</option>
-                    </select>
-                </div>
-
-                <div class="selection-area">
-                    <select id="subSymptomSelect" class="dropdown" disabled>
-                        <option value="">First select a symptom</option>
-                    </select>
-                </div>
-
-                <button id="addSelection" class="clear-btn" disabled>Add Selection</button>
+    <div class="main-container">
+        <!-- Home Page -->
+        <div class="page active" id="home">
+            <div class="hero">
+                <h1>HomeoPath AI</h1>
+                <p class="subtitle">Advanced Homeopathic Analysis Platform</p>
+                <p class="tagline">"A precise path through the homeopathic maze."</p>
+                <button class="cta-button" onclick="showPage('analysis')">
+                    <i class="fas fa-rocket"></i> Start Analysis
+                </button>
             </div>
 
-            <div class="card">
-                <h2>📋 Selected Combinations</h2>
-                <div id="selectionsList" class="selection-list">
-                    <div class="empty-state">No selections yet. Choose body parts and symptoms to get started.</div>
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI-Powered Analysis</h3>
+                    <p>Advanced algorithms analyze symptom combinations to provide precise homeopathic recommendations.</p>
                 </div>
-                <button id="clearAll" class="clear-btn" style="display: none;">Clear All</button>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Comprehensive Database</h3>
+                    <p>Access to extensive repertory data covering multiple body systems and symptom variations.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Smart Recommendations</h3>
+                    <p>Prioritized medicine suggestions based on symptom correlation and frequency analysis.</p>
+                </div>
             </div>
         </div>
 
-        <div class="card recommendations">
-            <h2>💊 Medicine Recommendations</h2>
-            <div id="recommendationsContent">
-                <div class="empty-state">Make your first selection to see personalized medicine recommendations.</div>
+        <!-- Analysis Page -->
+        <div class="page" id="analysis">
+            <div class="analysis-container">
+                <div class="glass-card">
+                    <div class="card-header">
+                        <i class="fas fa-search"></i>
+                        <h2>Symptom Selection</h2>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Body Part</label>
+                        <select id="bodyPartSelect" class="modern-select">
+                            <option value="">Choose a body part...</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Symptom</label>
+                        <select id="symptomSelect" class="modern-select" disabled>
+                            <option value="">First select a body part</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Sub-Symptom</label>
+                        <select id="subSymptomSelect" class="modern-select" disabled>
+                            <option value="">First select a symptom</option>
+                        </select>
+                    </div>
+
+                    <button id="addSelection" class="add-btn" disabled>
+                        <i class="fas fa-plus"></i> Add Selection
+                    </button>
+                </div>
+
+                <div class="glass-card">
+                    <div class="card-header">
+                        <i class="fas fa-list"></i>
+                        <h2>Selected Combinations</h2>
+                    </div>
+                    
+                    <div id="selectionsList" class="selections-list">
+                        <div class="empty-state">
+                            <i class="fas fa-clipboard-list"></i>
+                            <p>No selections yet. Choose body parts and symptoms to get started.</p>
+                        </div>
+                    </div>
+                    
+                    <button id="clearAll" class="clear-all-btn" style="display: none;">
+                        <i class="fas fa-trash"></i> Clear All
+                    </button>
+                    
+                    <button id="getRecommendations" class="add-btn" style="display: none; background: linear-gradient(135deg, var(--success-green), #059669); margin-top: 1rem;">
+                        <i class="fas fa-magic"></i> Get Recommendations
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Page -->
+        <div class="page" id="results">
+            <div class="results-container">
+                <div class="glass-card results-full">
+                    <div class="card-header">
+                        <i class="fas fa-pills"></i>
+                        <h2>Medicine Recommendations</h2>
+                    </div>
+                    
+                    <div id="recommendationsContent">
+                        <div class="empty-state">
+                            <i class="fas fa-search"></i>
+                            <p>Make your first selection to see personalized medicine recommendations.</p>
+                            <button class="cta-button" onclick="showPage('analysis')" style="margin-top: 1rem;">
+                                <i class="fas fa-arrow-left"></i> Go to Analysis
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Page -->
+        <div class="page" id="about">
+            <div class="results-container">
+                <div class="glass-card">
+                    <div class="card-header">
+                        <i class="fas fa-info-circle"></i>
+                        <h2>About HomeoPath AI</h2>
+                    </div>
+                    
+                    <div style="line-height: 1.8;">
+                        <p style="margin-bottom: 1.5rem;">
+                            HomeoPath AI is an advanced homeopathic analysis platform designed to assist practitioners 
+                            and patients in finding the most suitable homeopathic remedies based on comprehensive symptom analysis.
+                        </p>
+                        
+                        <h3 style="color: var(--primary-turquoise); margin-bottom: 1rem;">
+                            <i class="fas fa-cogs"></i> How It Works
+                        </h3>
+                        <p style="margin-bottom: 1.5rem;">
+                            Our AI-powered system analyzes symptom combinations across different body systems and correlates 
+                            them with our extensive homeopathic repertory database. The platform prioritizes medicines based 
+                            on their frequency of occurrence across selected symptoms.
+                        </p>
+                        
+                        <h3 style="color: var(--primary-turquoise); margin-bottom: 1rem;">
+                            <i class="fas fa-shield-alt"></i> Disclaimer
+                        </h3>
+                        <p style="margin-bottom: 1.5rem;">
+                            This tool is designed for educational and research purposes. Always consult with a qualified 
+                            homeopathic practitioner before starting any treatment. This platform does not replace 
+                            professional medical advice.
+                        </p>
+                        
+                        <h3 style="color: var(--primary-turquoise); margin-bottom: 1rem;">
+                            <i class="fas fa-user-md"></i> About Dr. Sarfaraz
+                        </h3>
+                        <p>
+                            A dedicated homeopathic practitioner with years of experience in classical homeopathy, 
+                            committed to providing precise and effective treatment solutions through modern technology.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
     <script>
         let repertoryData = {};
+        let app;
+
+        // Navigation functionality
+        function showPage(pageId) {
+            // Hide all pages
+            document.querySelectorAll('.page').forEach(page => {
+                page.classList.remove('active');
+            });
+            
+            // Show selected page
+            document.getElementById(pageId).classList.add('active');
+            
+            // Update navigation
+            document.querySelectorAll('.nav-item').forEach(item => {
+                item.classList.remove('active');
+            });
+            document.querySelector(`[data-page="${pageId}"]`).classList.add('active');
+        }
+
+        // Navigation event listeners
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.addEventListener('click', () => {
+                const page = item.getAttribute('data-page');
+                showPage(page);
+            });
+        });
 
         // Load repertory data from JSON file
         async function loadRepertoryData() {
@@ -317,7 +807,7 @@
                 console.log('Repertory data loaded successfully');
                 
                 // Initialize the application after data is loaded
-                window.app = new HomeoPathAI();
+                app = new HomeoPathAI();
             } catch (error) {
                 console.error('Error loading repertory data:', error);
                 // Fallback to sample data if JSON file fails to load
@@ -325,28 +815,55 @@
                     "Head": {
                         "Headache": {
                             "Throbbing": ["Belladonna", "Glonoine", "Sanguinaria"],
-                            "Pressing": ["Bryonia", "Nux Vomica", "Gelsemium"]
+                            "Pressing": ["Bryonia", "Nux Vomica", "Gelsemium"],
+                            "Burning": ["Glonoine", "Belladonna", "Spigelia"]
+                        },
+                        "Dizziness": {
+                            "Vertigo": ["Cocculus", "Bryonia", "Conium"],
+                            "Lightheaded": ["Gelsemium", "Pulsatilla", "Nux Vomica"]
                         }
                     },
                     "Chest": {
                         "Cough": {
                             "Dry": ["Bryonia", "Phosphorus", "Rumex"],
-                            "Wet": ["Antimonium Tart", "Pulsatilla", "Kali Bich"]
+                            "Wet": ["Antimonium Tart", "Pulsatilla", "Kali Bich"],
+                            "Spasmodic": ["Drosera", "Cuprum", "Ipeca"]
+                        },
+                        "Breathing": {
+                            "Shortness": ["Arsenicum", "Carbo Veg", "Phosphorus"],
+                            "Wheezing": ["Arsenicum", "Ipeca", "Antimonium Tart"]
+                        }
+                    },
+                    "Stomach": {
+                        "Pain": {
+                            "Burning": ["Arsenicum", "Phosphorus", "Nux Vomica"],
+                            "Cramping": ["Colocynth", "Mag Phos", "Dioscorea"]
+                        },
+                        "Nausea": {
+                            "Morning": ["Nux Vomica", "Sepia", "Pulsatilla"],
+                            "Motion": ["Cocculus", "Petroleum", "Tabacum"]
                         }
                     }
                 };
                 
-                // Show error message to user
+                // Show notice about fallback data
                 document.getElementById('recommendationsContent').innerHTML = `
-                    <div style="background: #fff3cd; border: 1px solid #ffeaa7; border-radius: 8px; padding: 1rem; margin: 1rem 0; color: #856404;">
-                        <strong>⚠️ Notice:</strong> Could not load repertory.json file. Using sample data for demonstration. 
+                    <div style="background: rgba(245, 158, 11, 0.1); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 10px; padding: 1rem; margin: 1rem 0; color: var(--warning-orange);">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <strong> Notice:</strong> Could not load repertory.json file. Using sample data for demonstration. 
                         Please ensure repertory.json is in the same directory as this HTML file.
                     </div>
-                    <div class="empty-state">Make your first selection to see personalized medicine recommendations.</div>
+                    <div class="empty-state">
+                        <i class="fas fa-search"></i>
+                        <p>Make your first selection to see personalized medicine recommendations.</p>
+                        <button class="cta-button" onclick="showPage('analysis')" style="margin-top: 1rem;">
+                            <i class="fas fa-arrow-left"></i> Go to Analysis
+                        </button>
+                    </div>
                 `;
                 
                 // Initialize the application with fallback data
-                window.app = new HomeoPathAI();
+                app = new HomeoPathAI();
             }
         }
 
@@ -365,6 +882,7 @@
                 this.addButton = document.getElementById('addSelection');
                 this.selectionsList = document.getElementById('selectionsList');
                 this.clearAllButton = document.getElementById('clearAll');
+                this.getRecommendationsButton = document.getElementById('getRecommendations');
                 this.recommendationsContent = document.getElementById('recommendationsContent');
             }
 
@@ -383,6 +901,7 @@
                 this.subSymptomSelect.addEventListener('change', () => this.validateSelection());
                 this.addButton.addEventListener('click', () => this.addSelection());
                 this.clearAllButton.addEventListener('click', () => this.clearAllSelections());
+                this.getRecommendationsButton.addEventListener('click', () => this.generateRecommendations());
             }
 
             onBodyPartChange() {
@@ -453,16 +972,27 @@
                             medicines
                         });
                         this.updateSelectionsList();
-                        this.updateRecommendations();
                         this.resetSelectors();
+                        this.showNotification('Selection added successfully!', 'success');
+                        
+                        // Don't auto-switch to results anymore - wait for recommend button
+                    } else {
+                        // Show feedback for duplicate selection
+                        this.showNotification('This combination is already selected!', 'warning');
                     }
                 }
             }
 
             updateSelectionsList() {
                 if (this.selections.length === 0) {
-                    this.selectionsList.innerHTML = '<div class="empty-state">No selections yet. Choose body parts and symptoms to get started.</div>';
+                    this.selectionsList.innerHTML = `
+                        <div class="empty-state">
+                            <i class="fas fa-clipboard-list"></i>
+                            <p>No selections yet. Choose body parts and symptoms to get started.</p>
+                        </div>
+                    `;
                     this.clearAllButton.style.display = 'none';
+                    this.getRecommendationsButton.style.display = 'none';
                     return;
                 }
 
@@ -471,24 +1001,62 @@
                     const item = document.createElement('div');
                     item.className = 'selection-item';
                     item.innerHTML = `
-                        <span><strong>${selection.bodyPart}</strong> → ${selection.symptom} → ${selection.subSymptom}</span>
-                        <button class="remove-btn" onclick="app.removeSelection(${index})">×</button>
+                        <div class="selection-text">
+                            <strong>${selection.bodyPart}</strong> → ${selection.symptom} → ${selection.subSymptom}
+                        </div>
+                        <button class="remove-btn" onclick="app.removeSelection(${index})" title="Remove selection">
+                            <i class="fas fa-times"></i>
+                        </button>
                     `;
                     this.selectionsList.appendChild(item);
                 });
                 this.clearAllButton.style.display = 'block';
+                this.getRecommendationsButton.style.display = 'block';
             }
 
             removeSelection(index) {
                 this.selections.splice(index, 1);
                 this.updateSelectionsList();
-                this.updateRecommendations();
+                this.showNotification('Selection removed successfully!', 'success');
             }
 
             clearAllSelections() {
                 this.selections = [];
                 this.updateSelectionsList();
-                this.updateRecommendations();
+                // Clear results page too
+                this.recommendationsContent.innerHTML = `
+                    <div class="empty-state">
+                        <i class="fas fa-search"></i>
+                        <p>Make your first selection to see personalized medicine recommendations.</p>
+                        <button class="cta-button" onclick="showPage('analysis')" style="margin-top: 1rem;">
+                            <i class="fas fa-arrow-left"></i> Go to Analysis
+                        </button>
+                    </div>
+                `;
+                this.showNotification('All selections cleared!', 'info');
+            }
+
+            generateRecommendations() {
+                if (this.selections.length === 0) {
+                    this.showNotification('Please make at least one selection first!', 'warning');
+                    return;
+                }
+
+                // Show loading state
+                this.getRecommendationsButton.innerHTML = '<i class="loading"></i> Analyzing...';
+                this.getRecommendationsButton.disabled = true;
+
+                // Simulate analysis time for better UX
+                setTimeout(() => {
+                    this.updateRecommendations();
+                    showPage('results');
+                    
+                    // Reset button
+                    this.getRecommendationsButton.innerHTML = '<i class="fas fa-magic"></i> Get Recommendations';
+                    this.getRecommendationsButton.disabled = false;
+                    
+                    this.showNotification('Recommendations generated successfully!', 'success');
+                }, 1500);
             }
 
             resetSelectors() {
@@ -502,7 +1070,15 @@
 
             updateRecommendations() {
                 if (this.selections.length === 0) {
-                    this.recommendationsContent.innerHTML = '<div class="empty-state">Make your first selection to see personalized medicine recommendations.</div>';
+                    this.recommendationsContent.innerHTML = `
+                        <div class="empty-state">
+                            <i class="fas fa-search"></i>
+                            <p>Make your first selection to see personalized medicine recommendations.</p>
+                            <button class="cta-button" onclick="showPage('analysis')" style="margin-top: 1rem;">
+                                <i class="fas fa-arrow-left"></i> Go to Analysis
+                            </button>
+                        </div>
+                    `;
                     return;
                 }
 
@@ -528,15 +1104,41 @@
 
                 let html = '';
 
+                // Statistics section
+                html += `
+                    <div style="background: rgba(6, 214, 160, 0.1); border-radius: 15px; padding: 1.5rem; margin-bottom: 2rem; border: 1px solid rgba(6, 214, 160, 0.2);">
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; text-align: center;">
+                            <div>
+                                <div style="font-size: 2rem; font-weight: 700; color: var(--primary-turquoise);">${this.selections.length}</div>
+                                <div style="font-size: 0.9rem; opacity: 0.8;">Selections</div>
+                            </div>
+                            <div>
+                                <div style="font-size: 2rem; font-weight: 700; color: var(--primary-turquoise);">${allMedicines.size}</div>
+                                <div style="font-size: 0.9rem; opacity: 0.8;">Total Medicines</div>
+                            </div>
+                            <div>
+                                <div style="font-size: 2rem; font-weight: 700; color: var(--primary-turquoise);">${commonMedicines.length}</div>
+                                <div style="font-size: 0.9rem; opacity: 0.8;">Common Medicines</div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+
                 if (commonMedicines.length > 0) {
                     html += `
-                        <div class="rec-section">
-                            <h3>🎯 Most Relevant Medicines (Common Across Symptoms)</h3>
+                        <div style="margin-bottom: 2rem;">
+                            <div class="section-title">
+                                <i class="fas fa-bullseye"></i>
+                                <h3>Most Relevant Medicines</h3>
+                            </div>
                             <div class="medicine-grid">
                                 ${commonMedicines.map(([medicine, count]) => `
-                                    <div class="medicine-item">
+                                    <div class="medicine-card" onclick="app.showMedicineDetails('${medicine}')">
                                         <div class="medicine-name">${medicine}</div>
-                                        <div class="medicine-count">Matches ${count} of ${this.selections.length} selections</div>
+                                        <div class="medicine-count">
+                                            <i class="fas fa-check-circle"></i> 
+                                            Matches ${count} of ${this.selections.length} selections
+                                        </div>
                                     </div>
                                 `).join('')}
                             </div>
@@ -546,13 +1148,19 @@
 
                 if (individualMedicines.length > 0) {
                     html += `
-                        <div class="rec-section">
-                            <h3>💡 Additional Options (Specific to Individual Symptoms)</h3>
+                        <div style="margin-bottom: 2rem;">
+                            <div class="section-title">
+                                <i class="fas fa-lightbulb"></i>
+                                <h3>Additional Options</h3>
+                            </div>
                             <div class="medicine-grid">
                                 ${individualMedicines.map(([medicine, count]) => `
-                                    <div class="medicine-item">
+                                    <div class="medicine-card" onclick="app.showMedicineDetails('${medicine}')">
                                         <div class="medicine-name">${medicine}</div>
-                                        <div class="medicine-count">For specific symptom</div>
+                                        <div class="medicine-count">
+                                            <i class="fas fa-star"></i> 
+                                            Specific remedy
+                                        </div>
                                     </div>
                                 `).join('')}
                             </div>
@@ -563,16 +1171,20 @@
                 // Add selection-specific breakdown
                 if (this.selections.length > 1) {
                     html += `
-                        <div class="rec-section">
-                            <h3>📊 Breakdown by Selection</h3>
+                        <div>
+                            <div class="section-title">
+                                <i class="fas fa-chart-bar"></i>
+                                <h3>Breakdown by Selection</h3>
+                            </div>
                             ${this.selections.map((selection, index) => `
-                                <div style="margin-bottom: 1rem;">
-                                    <h4 style="color: var(--myrtle-green); margin-bottom: 0.5rem;">
+                                <div style="margin-bottom: 1.5rem; background: rgba(255, 255, 255, 0.02); border-radius: 10px; padding: 1rem; border-left: 3px solid var(--primary-turquoise);">
+                                    <h4 style="color: var(--primary-turquoise); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                                        <i class="fas fa-arrow-right"></i>
                                         ${selection.bodyPart} → ${selection.symptom} → ${selection.subSymptom}
                                     </h4>
                                     <div class="medicine-grid">
                                         ${selection.medicines.map(medicine => `
-                                            <div class="medicine-item">
+                                            <div class="medicine-card" onclick="app.showMedicineDetails('${medicine}')">
                                                 <div class="medicine-name">${medicine}</div>
                                             </div>
                                         `).join('')}
@@ -585,10 +1197,86 @@
 
                 this.recommendationsContent.innerHTML = html;
             }
+
+            showMedicineDetails(medicineName) {
+                // Create a modal or detailed view for medicine information
+                this.showNotification(`Detailed information for ${medicineName} would be displayed here.`, 'info');
+            }
+
+            showNotification(message, type = 'info') {
+                // Create notification element
+                const notification = document.createElement('div');
+                notification.style.cssText = `
+                    position: fixed;
+                    top: 100px;
+                    right: 20px;
+                    background: ${type === 'success' ? 'var(--success-green)' : 
+                                type === 'warning' ? 'var(--warning-orange)' : 
+                                type === 'error' ? 'var(--danger-red)' : 'var(--primary-turquoise)'};
+                    color: white;
+                    padding: 1rem 1.5rem;
+                    border-radius: 10px;
+                    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+                    z-index: 10000;
+                    font-weight: 500;
+                    transform: translateX(100%);
+                    transition: transform 0.3s ease;
+                    max-width: 300px;
+                `;
+                
+                const icon = type === 'success' ? 'check-circle' : 
+                           type === 'warning' ? 'exclamation-triangle' : 
+                           type === 'error' ? 'times-circle' : 'info-circle';
+                           
+                notification.innerHTML = `
+                    <i class="fas fa-${icon}"></i> ${message}
+                `;
+
+                document.body.appendChild(notification);
+
+                // Show notification
+                setTimeout(() => {
+                    notification.style.transform = 'translateX(0)';
+                }, 100);
+
+                // Hide notification after 3 seconds
+                setTimeout(() => {
+                    notification.style.transform = 'translateX(100%)';
+                    setTimeout(() => {
+                        document.body.removeChild(notification);
+                    }, 300);
+                }, 3000);
+            }
         }
 
-        // Load data and initialize the application
+        // Initialize the application
         loadRepertoryData();
+
+        // Add some interactive effects
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add parallax effect to background
+            document.addEventListener('mousemove', function(e) {
+                const mouseX = e.clientX / window.innerWidth;
+                const mouseY = e.clientY / window.innerHeight;
+                
+                const bgAnimation = document.querySelector('.bg-animation::before');
+                if (bgAnimation) {
+                    const translateX = mouseX * 20;
+                    const translateY = mouseY * 20;
+                    bgAnimation.style.transform = `translate(${translateX}px, ${translateY}px)`;
+                }
+            });
+
+            // Add scroll effect to navbar
+            window.addEventListener('scroll', function() {
+                const navbar = document.querySelector('.navbar');
+                if (window.scrollY > 50) {
+                    navbar.style.background = 'rgba(15, 15, 15, 0.98)';
+                } else {
+                    navbar.style.background = 'rgba(15, 15, 15, 0.95)';
+                }
+            });
+        });
     </script>
 </body>
 </html>
