@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Sarfaraz – HomeoPath AI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --myrtle-green: #2D7D32;
+            --keppel: #4CAF50;
+            --azureish-white: #E8F5E8;
+            --pure-white: #FFFFFF;
+            --text-black: #1A1A1A;
+            --shadow: rgba(45, 125, 50, 0.1);
+            --hover-shadow: rgba(45, 125, 50, 0.2);
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--azureish-white) 0%, var(--pure-white) 100%);
+            color: var(--text-black);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--myrtle-green) 0%, var(--keppel) 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 20px var(--shadow);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            font-style: italic;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .card {
+            background: var(--pure-white);
+            border-radius: 15px;
+            padding: 1.5rem;
+            box-shadow: 0 8px 32px var(--shadow);
+            border: 1px solid rgba(76, 175, 80, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px var(--hover-shadow);
+        }
+
+        .card h2 {
+            color: var(--myrtle-green);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            border-bottom: 2px solid var(--keppel);
+            padding-bottom: 0.5rem;
+        }
+
+        .selection-area {
+            margin-bottom: 1rem;
+        }
+
+        .dropdown {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid var(--azureish-white);
+            border-radius: 8px;
+            font-size: 1rem;
+            background: var(--pure-white);
+            color: var(--text-black);
+            transition: all 0.3s ease;
+        }
+
+        .dropdown:focus {
+            outline: none;
+            border-color: var(--keppel);
+            box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.1);
+        }
+
+        .selection-list {
+            margin-top: 1rem;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .selection-item {
+            background: var(--azureish-white);
+            margin: 0.5rem 0;
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+
+        .selection-item:hover {
+            background: var(--keppel);
+            color: white;
+            transform: translateX(5px);
+        }
+
+        .remove-btn {
+            background: #ff4444;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            transition: all 0.3s ease;
+        }
+
+        .remove-btn:hover {
+            background: #cc0000;
+            transform: scale(1.1);
+        }
+
+        .recommendations {
+            grid-column: 1 / -1;
+            margin-top: 2rem;
+        }
+
+        .rec-section {
+            margin-bottom: 2rem;
+        }
+
+        .rec-section h3 {
+            color: var(--myrtle-green);
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+            padding: 0.5rem 0;
+            border-left: 4px solid var(--keppel);
+            padding-left: 1rem;
+        }
+
+        .medicine-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .medicine-item {
+            background: linear-gradient(135deg, var(--pure-white) 0%, var(--azureish-white) 100%);
+            padding: 1rem;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .medicine-item:hover {
+            border-color: var(--keppel);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px var(--shadow);
+        }
+
+        .medicine-name {
+            font-weight: 600;
+            color: var(--myrtle-green);
+            font-size: 1.1rem;
+        }
+
+        .medicine-count {
+            font-size: 0.9rem;
+            color: var(--text-black);
+            opacity: 0.7;
+            margin-top: 0.25rem;
+        }
+
+        .clear-btn {
+            background: linear-gradient(135deg, var(--myrtle-green) 0%, var(--keppel) 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-top: 1rem;
+        }
+
+        .clear-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px var(--shadow);
+        }
+
+        .empty-state {
+            text-align: center;
+            color: var(--text-black);
+            opacity: 0.6;
+            font-style: italic;
+            padding: 2rem;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid var(--azureish-white);
+            border-radius: 50%;
+            border-top-color: var(--keppel);
+            animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .container {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Dr. Sarfaraz – HomeoPath AI</h1>
+        <p>"A precise path through the homeopathic maze."</p>
+    </div>
+
+    <div class="container">
+        <div class="main-content">
+            <div class="card">
+                <h2>🔍 Select Body Parts & Symptoms</h2>
+                
+                <div class="selection-area">
+                    <select id="bodyPartSelect" class="dropdown">
+                        <option value="">Choose a body part...</option>
+                    </select>
+                </div>
+
+                <div class="selection-area">
+                    <select id="symptomSelect" class="dropdown" disabled>
+                        <option value="">First select a body part</option>
+                    </select>
+                </div>
+
+                <div class="selection-area">
+                    <select id="subSymptomSelect" class="dropdown" disabled>
+                        <option value="">First select a symptom</option>
+                    </select>
+                </div>
+
+                <button id="addSelection" class="clear-btn" disabled>Add Selection</button>
+            </div>
+
+            <div class="card">
+                <h2>📋 Selected Combinations</h2>
+                <div id="selectionsList" class="selection-list">
+                    <div class="empty-state">No selections yet. Choose body parts and symptoms to get started.</div>
+                </div>
+                <button id="clearAll" class="clear-btn" style="display: none;">Clear All</button>
+            </div>
+        </div>
+
+        <div class="card recommendations">
+            <h2>💊 Medicine Recommendations</h2>
+            <div id="recommendationsContent">
+                <div class="empty-state">Make your first selection to see personalized medicine recommendations.</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let repertoryData = {};
+
+        // Load repertory data from JSON file
+        async function loadRepertoryData() {
+            try {
+                const response = await fetch('repertory.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                repertoryData = await response.json();
+                console.log('Repertory data loaded successfully');
+                
+                // Initialize the application after data is loaded
+                window.app = new HomeoPathAI();
+            } catch (error) {
+                console.error('Error loading repertory data:', error);
+                // Fallback to sample data if JSON file fails to load
+                repertoryData = {
+                    "Head": {
+                        "Headache": {
+                            "Throbbing": ["Belladonna", "Glonoine", "Sanguinaria"],
+                            "Pressing": ["Bryonia", "Nux Vomica", "Gelsemium"]
+                        }
+                    },
+                    "Chest": {
+                        "Cough": {
+                            "Dry": ["Bryonia", "Phosphorus", "Rumex"],
+                            "Wet": ["Antimonium Tart", "Pulsatilla", "Kali Bich"]
+                        }
+                    }
+                };
+                
+                // Show error message to user
+                document.getElementById('recommendationsContent').innerHTML = `
+                    <div style="background: #fff3cd; border: 1px solid #ffeaa7; border-radius: 8px; padding: 1rem; margin: 1rem 0; color: #856404;">
+                        <strong>⚠️ Notice:</strong> Could not load repertory.json file. Using sample data for demonstration. 
+                        Please ensure repertory.json is in the same directory as this HTML file.
+                    </div>
+                    <div class="empty-state">Make your first selection to see personalized medicine recommendations.</div>
+                `;
+                
+                // Initialize the application with fallback data
+                window.app = new HomeoPathAI();
+            }
+        }
+
+        class HomeoPathAI {
+            constructor() {
+                this.selections = [];
+                this.initializeElements();
+                this.loadBodyParts();
+                this.attachEventListeners();
+            }
+
+            initializeElements() {
+                this.bodyPartSelect = document.getElementById('bodyPartSelect');
+                this.symptomSelect = document.getElementById('symptomSelect');
+                this.subSymptomSelect = document.getElementById('subSymptomSelect');
+                this.addButton = document.getElementById('addSelection');
+                this.selectionsList = document.getElementById('selectionsList');
+                this.clearAllButton = document.getElementById('clearAll');
+                this.recommendationsContent = document.getElementById('recommendationsContent');
+            }
+
+            loadBodyParts() {
+                Object.keys(repertoryData).forEach(bodyPart => {
+                    const option = document.createElement('option');
+                    option.value = bodyPart;
+                    option.textContent = bodyPart;
+                    this.bodyPartSelect.appendChild(option);
+                });
+            }
+
+            attachEventListeners() {
+                this.bodyPartSelect.addEventListener('change', () => this.onBodyPartChange());
+                this.symptomSelect.addEventListener('change', () => this.onSymptomChange());
+                this.subSymptomSelect.addEventListener('change', () => this.validateSelection());
+                this.addButton.addEventListener('click', () => this.addSelection());
+                this.clearAllButton.addEventListener('click', () => this.clearAllSelections());
+            }
+
+            onBodyPartChange() {
+                const selectedBodyPart = this.bodyPartSelect.value;
+                this.symptomSelect.innerHTML = '<option value="">Choose a symptom...</option>';
+                this.subSymptomSelect.innerHTML = '<option value="">First select a symptom</option>';
+                this.subSymptomSelect.disabled = true;
+                
+                if (selectedBodyPart && repertoryData[selectedBodyPart]) {
+                    Object.keys(repertoryData[selectedBodyPart]).forEach(symptom => {
+                        const option = document.createElement('option');
+                        option.value = symptom;
+                        option.textContent = symptom;
+                        this.symptomSelect.appendChild(option);
+                    });
+                    this.symptomSelect.disabled = false;
+                } else {
+                    this.symptomSelect.disabled = true;
+                }
+                this.validateSelection();
+            }
+
+            onSymptomChange() {
+                const selectedBodyPart = this.bodyPartSelect.value;
+                const selectedSymptom = this.symptomSelect.value;
+                this.subSymptomSelect.innerHTML = '<option value="">Choose a sub-symptom...</option>';
+                
+                if (selectedBodyPart && selectedSymptom && repertoryData[selectedBodyPart][selectedSymptom]) {
+                    Object.keys(repertoryData[selectedBodyPart][selectedSymptom]).forEach(subSymptom => {
+                        const option = document.createElement('option');
+                        option.value = subSymptom;
+                        option.textContent = subSymptom;
+                        this.subSymptomSelect.appendChild(option);
+                    });
+                    this.subSymptomSelect.disabled = false;
+                } else {
+                    this.subSymptomSelect.disabled = true;
+                }
+                this.validateSelection();
+            }
+
+            validateSelection() {
+                const hasValidSelection = this.bodyPartSelect.value && 
+                                       this.symptomSelect.value && 
+                                       this.subSymptomSelect.value;
+                this.addButton.disabled = !hasValidSelection;
+            }
+
+            addSelection() {
+                const bodyPart = this.bodyPartSelect.value;
+                const symptom = this.symptomSelect.value;
+                const subSymptom = this.subSymptomSelect.value;
+
+                if (bodyPart && symptom && subSymptom) {
+                    // Check if selection already exists
+                    const exists = this.selections.some(sel => 
+                        sel.bodyPart === bodyPart && 
+                        sel.symptom === symptom && 
+                        sel.subSymptom === subSymptom
+                    );
+
+                    if (!exists) {
+                        const medicines = repertoryData[bodyPart][symptom][subSymptom];
+                        this.selections.push({
+                            bodyPart,
+                            symptom,
+                            subSymptom,
+                            medicines
+                        });
+                        this.updateSelectionsList();
+                        this.updateRecommendations();
+                        this.resetSelectors();
+                    }
+                }
+            }
+
+            updateSelectionsList() {
+                if (this.selections.length === 0) {
+                    this.selectionsList.innerHTML = '<div class="empty-state">No selections yet. Choose body parts and symptoms to get started.</div>';
+                    this.clearAllButton.style.display = 'none';
+                    return;
+                }
+
+                this.selectionsList.innerHTML = '';
+                this.selections.forEach((selection, index) => {
+                    const item = document.createElement('div');
+                    item.className = 'selection-item';
+                    item.innerHTML = `
+                        <span><strong>${selection.bodyPart}</strong> → ${selection.symptom} → ${selection.subSymptom}</span>
+                        <button class="remove-btn" onclick="app.removeSelection(${index})">×</button>
+                    `;
+                    this.selectionsList.appendChild(item);
+                });
+                this.clearAllButton.style.display = 'block';
+            }
+
+            removeSelection(index) {
+                this.selections.splice(index, 1);
+                this.updateSelectionsList();
+                this.updateRecommendations();
+            }
+
+            clearAllSelections() {
+                this.selections = [];
+                this.updateSelectionsList();
+                this.updateRecommendations();
+            }
+
+            resetSelectors() {
+                this.bodyPartSelect.value = '';
+                this.symptomSelect.innerHTML = '<option value="">First select a body part</option>';
+                this.symptomSelect.disabled = true;
+                this.subSymptomSelect.innerHTML = '<option value="">First select a symptom</option>';
+                this.subSymptomSelect.disabled = true;
+                this.addButton.disabled = true;
+            }
+
+            updateRecommendations() {
+                if (this.selections.length === 0) {
+                    this.recommendationsContent.innerHTML = '<div class="empty-state">Make your first selection to see personalized medicine recommendations.</div>';
+                    return;
+                }
+
+                const medicineCount = {};
+                const allMedicines = new Set();
+
+                // Count occurrences of each medicine
+                this.selections.forEach(selection => {
+                    selection.medicines.forEach(medicine => {
+                        allMedicines.add(medicine);
+                        medicineCount[medicine] = (medicineCount[medicine] || 0) + 1;
+                    });
+                });
+
+                // Separate common and individual medicines
+                const commonMedicines = Object.entries(medicineCount)
+                    .filter(([_, count]) => count > 1)
+                    .sort((a, b) => b[1] - a[1]);
+
+                const individualMedicines = Object.entries(medicineCount)
+                    .filter(([_, count]) => count === 1)
+                    .sort((a, b) => a[0].localeCompare(b[0]));
+
+                let html = '';
+
+                if (commonMedicines.length > 0) {
+                    html += `
+                        <div class="rec-section">
+                            <h3>🎯 Most Relevant Medicines (Common Across Symptoms)</h3>
+                            <div class="medicine-grid">
+                                ${commonMedicines.map(([medicine, count]) => `
+                                    <div class="medicine-item">
+                                        <div class="medicine-name">${medicine}</div>
+                                        <div class="medicine-count">Matches ${count} of ${this.selections.length} selections</div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    `;
+                }
+
+                if (individualMedicines.length > 0) {
+                    html += `
+                        <div class="rec-section">
+                            <h3>💡 Additional Options (Specific to Individual Symptoms)</h3>
+                            <div class="medicine-grid">
+                                ${individualMedicines.map(([medicine, count]) => `
+                                    <div class="medicine-item">
+                                        <div class="medicine-name">${medicine}</div>
+                                        <div class="medicine-count">For specific symptom</div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    `;
+                }
+
+                // Add selection-specific breakdown
+                if (this.selections.length > 1) {
+                    html += `
+                        <div class="rec-section">
+                            <h3>📊 Breakdown by Selection</h3>
+                            ${this.selections.map((selection, index) => `
+                                <div style="margin-bottom: 1rem;">
+                                    <h4 style="color: var(--myrtle-green); margin-bottom: 0.5rem;">
+                                        ${selection.bodyPart} → ${selection.symptom} → ${selection.subSymptom}
+                                    </h4>
+                                    <div class="medicine-grid">
+                                        ${selection.medicines.map(medicine => `
+                                            <div class="medicine-item">
+                                                <div class="medicine-name">${medicine}</div>
+                                            </div>
+                                        `).join('')}
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    `;
+                }
+
+                this.recommendationsContent.innerHTML = html;
+            }
+        }
+
+        // Load data and initialize the application
+        loadRepertoryData();
+    </script>
+</body>
+</html>
