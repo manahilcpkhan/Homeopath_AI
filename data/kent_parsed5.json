@@ -1,0 +1,1951 @@
+{
+  "SUNLIGHT": {
+    "": [
+      "Acon"
+    ],
+    "general": [
+      "Agar",
+      "Brom",
+      "Glon",
+      "Nat-c",
+      "Nux-v"
+    ]
+  },
+  "SUPPORTING": {
+    "general": [
+      "Amel"
+    ],
+    "": [
+      "Sabad"
+    ]
+  },
+  "SUSPENSION": {
+    "": [
+      "Ant-t"
+    ],
+    "general": [
+      "Aur",
+      "Camph",
+      "Carb-v",
+      "Cham",
+      "Croc",
+      "Glon",
+      "Hep",
+      "Hipp",
+      "Lach",
+      "Mag-c",
+      "Merc",
+      "Mosch",
+      "Nat-m",
+      "Nux-m",
+      "Nux-v",
+      "Paeon",
+      "Phos",
+      "Sabad",
+      "Sep",
+      "Stram",
+      "Sulph",
+      "Thuj",
+      "Verat",
+      "Zinc"
+    ],
+    "as if there were a barrier between his organs of sense and external objects": [
+      "Aeth"
+    ],
+    ", like": [
+      "Calad",
+      "Ferr"
+    ],
+    ", with": [
+      "Alum",
+      "Ars",
+      "Berb",
+      "Bry",
+      "Canth"
+    ],
+    ", while": [
+      "Bor",
+      "Cham",
+      "Cocc",
+      "Par",
+      "Sol-n"
+    ],
+    "after animated": [
+      "Bor",
+      "Cham",
+      "Lyc",
+      "Nat-c",
+      "Par",
+      "Thuj"
+    ],
+    "long": [
+      "Thuj"
+    ],
+    "amel.": [
+      "Glon"
+    ]
+  },
+  "THINKING": {
+    ", on": [
+      "Pip-m"
+    ]
+  },
+  "TOUCH": {
+    "general": [
+      "Acon",
+      "Act-sp",
+      "Agar",
+      "Agg",
+      "Aloe",
+      "Alum",
+      "Alumn",
+      "Am-c",
+      "Amyg",
+      "Anac",
+      "Ant-t",
+      "Apis",
+      "Arg-m",
+      "Arg-n",
+      "Arn",
+      "Ars",
+      "Asaf",
+      "Atro",
+      "Aur",
+      "Bar-m",
+      "Bell",
+      "Berb",
+      "Bism",
+      "Bry",
+      "Cact",
+      "Calad",
+      "Calc",
+      "Calc-ar",
+      "Camph",
+      "Canth",
+      "Carb-an",
+      "Carb-v",
+      "Caust",
+      "Cham",
+      "Chel",
+      "Chin-s",
+      "Cic",
+      "Cimic",
+      "Clem",
+      "Cocc",
+      "Coloc",
+      "Con",
+      "Crot-h",
+      "Crot-t",
+      "Cupr",
+      "Cycl",
+      "Dig",
+      "Dulc",
+      "Echi",
+      "Euon",
+      "Eup-per",
+      "Eup-pur",
+      "Eupho",
+      "Ferr",
+      "Ferr-ar",
+      "Ferr-p",
+      "Gels",
+      "Genist",
+      "Gins",
+      "Glon",
+      "Gran",
+      "Graph",
+      "Grat",
+      "Gymn",
+      "Hell",
+      "Hep",
+      "Hydr-ac",
+      "Hyos",
+      "Hyper",
+      "Ign",
+      "Ind",
+      "Ip",
+      "Kali-bi",
+      "Kali-c",
+      "Kali-p",
+      "Kalm",
+      "Kreos",
+      "Lac-d",
+      "Lach",
+      "Lact",
+      "Lact-ac",
+      "Laur",
+      "Lec",
+      "Lyc",
+      "Mag-c",
+      "Meph",
+      "Merc",
+      "Mosch",
+      "Mur-ac",
+      "Nat-c",
+      "Nat-m",
+      "Nat-s",
+      "Nit-ac",
+      "Nux-v",
+      "Oena",
+      "Olnd",
+      "Op",
+      "P",
+      "Paeon",
+      "Par",
+      "Petr",
+      "Phos",
+      "Phyt",
+      "Plb",
+      "Ptel",
+      "Puls",
+      "Ran-b",
+      "Raph",
+      "Rhod",
+      "Rhus-t",
+      "Ruta",
+      "Sabad",
+      "Sabin",
+      "Samb",
+      "Sang",
+      "Sars",
+      "Sel",
+      "Seneg",
+      "Sep",
+      "Sol-n",
+      "Spig",
+      "Staph",
+      "Stram",
+      "Stront",
+      "Sulph",
+      "Tab",
+      "Tell",
+      "Tep",
+      "Ter",
+      "Ther",
+      "Thuj",
+      "Til",
+      "Valer",
+      "Verat",
+      "Verat-v",
+      "Viol-o",
+      "Vip",
+      "Zinc"
+    ],
+    "": [
+      "Am-c",
+      "Ars",
+      "Bell",
+      "Cupr"
+    ],
+    "and whirled as if, renewed by thinking about it": [
+      "Plb"
+    ],
+    ", as if in a circle": [
+      "Acon",
+      "Aloe"
+    ],
+    "he turns in a circle": [
+      "Bell",
+      "Berb"
+    ],
+    "to right": [
+      "Berb"
+    ],
+    "left": [
+      "Bell"
+    ],
+    "to left, on": [
+      "Bor",
+      "Calc-p"
+    ],
+    "on looking at revolving objects": [
+      "Lyc"
+    ],
+    "or moving the head": [
+      "Acon"
+    ],
+    "quickly": [
+      "Aloe",
+      "Am-c",
+      "Atro",
+      "Bar-c"
+    ],
+    "amel.": [
+      "Agar"
+    ],
+    ", during": [
+      "Acon"
+    ],
+    "copious, amel.": [
+      "Gels"
+    ],
+    ", from": [
+      "Calc"
+    ],
+    ", after": [
+      "Calc",
+      "Ign",
+      "Nux-v"
+    ],
+    ", before": [
+      "Nat-s"
+    ],
+    "after, amel.": [
+      "Op"
+    ],
+    "with": [
+      "Ail"
+    ]
+  },
+  "WALKING": {
+    "general": [
+      "Acon",
+      "Agar",
+      "Agg",
+      "Am-c",
+      "Ambr",
+      "Ang",
+      "Apis",
+      "Arg-m",
+      "Arg-n",
+      "Arn",
+      "Ars",
+      "Ars-i",
+      "Asar",
+      "Aster",
+      "Atro",
+      "Aur",
+      "Aur-m",
+      "Bar-c",
+      "Bar-m",
+      "Bell",
+      "Berb",
+      "Bism",
+      "Bor",
+      "Brom",
+      "Bry",
+      "Calad",
+      "Calc",
+      "Calc-ar",
+      "Calc-p",
+      "Calc-s",
+      "Camph",
+      "Cann-i",
+      "Cann-s",
+      "Canth",
+      "Carb-ac",
+      "Carb-an",
+      "Carb-s",
+      "Carb-v",
+      "Caust",
+      "Chin",
+      "Chin-a",
+      "Cic",
+      "Clem",
+      "Coca",
+      "Cocc",
+      "Coff",
+      "Colch",
+      "Con",
+      "Cop",
+      "Crot-h",
+      "Crot-t",
+      "Cycl",
+      "Daph",
+      "Dig",
+      "Dirc",
+      "Dros",
+      "Dulc",
+      "Eupho",
+      "Ferr",
+      "Ferr-i",
+      "Fl-ac",
+      "Gels",
+      "Graph",
+      "Grat",
+      "Hell",
+      "Hura",
+      "Hyos",
+      "Hyper",
+      "Ign",
+      "Iod",
+      "Ip",
+      "Kali-ar",
+      "Kali-bi",
+      "Kali-br",
+      "Kali-c",
+      "Kali-n",
+      "Kali-p",
+      "Kali-s",
+      "Kreos",
+      "Lac-c",
+      "Lach",
+      "Laur",
+      "Led",
+      "Lil-t",
+      "Lyc",
+      "Lycps",
+      "Lyss",
+      "Mag-c",
+      "Mag-m",
+      "Merc",
+      "Merl",
+      "Mill",
+      "Mur-ac",
+      "Nat-a",
+      "Nat-c",
+      "Nat-m",
+      "Nat-p",
+      "Nat-s",
+      "Nicc",
+      "Nit-ac",
+      "Nux-m",
+      "Nux-v",
+      "Olnd",
+      "Op",
+      "Ox-ac",
+      "Paeon",
+      "Par",
+      "Petr",
+      "Ph-ac",
+      "Phel",
+      "Phos",
+      "Phys",
+      "Phyt",
+      "Pic-ac",
+      "Psor",
+      "Ptel",
+      "Puls",
+      "Ran-b",
+      "Rhod",
+      "Rhus-t",
+      "Ruta",
+      "Sars",
+      "Sec",
+      "Sel",
+      "Senec",
+      "Sep",
+      "Sil",
+      "Spig",
+      "Stann",
+      "Staph",
+      "Stram",
+      "Stry",
+      "Sul-ac",
+      "Sulph",
+      "Sumb",
+      "Tab",
+      "Tarax",
+      "Tarent",
+      "Tell",
+      "Thea",
+      "Thuj",
+      "Til",
+      "Valer",
+      "Verat",
+      "Viol-t",
+      "Zinc"
+    ],
+    ", while": [
+      "Acon",
+      "Agar",
+      "Agn",
+      "Aloe",
+      "Alum",
+      "Am-m",
+      "Anac",
+      "Ant-t"
+    ],
+    "after": [
+      "Acon",
+      "Arg-m",
+      "Bry",
+      "Calad"
+    ],
+    "long": [
+      "Merl",
+      "Nat-m"
+    ],
+    "narrow path, along": [
+      "Bar-c"
+    ],
+    "near a declivity": [
+      "Sulph"
+    ],
+    "over a high bridge": [
+      "Puls",
+      "Staph"
+    ],
+    "a narrow bridge": [
+      "Bar-c",
+      "Ferr",
+      "Sulph"
+    ],
+    "room, in a": [
+      "Iris",
+      "Mag-m",
+      "Manc",
+      "Merc",
+      "Nat-c",
+      "Nit-ac",
+      "Paeon"
+    ],
+    "sideways": [
+      "Kali-c"
+    ],
+    "slowly, but not when taking violent exercise": [
+      "Mill"
+    ],
+    "water, near": [
+      "Ang"
+    ],
+    "over": [
+      "Ang",
+      "Brom"
+    ],
+    "in the open air, while": [
+      "Acon"
+    ],
+    "in the air, as if feet did not touch the ground, while": [
+      "Agar",
+      "Asar"
+    ]
+  },
+  "WALLS": {
+    "": [
+      "Arg-n",
+      "Sabad"
+    ]
+  },
+  "WARM": {
+    "general": [
+      "Amel",
+      "Croc",
+      "Grat",
+      "Kali-s",
+      "Lact",
+      "Lil-t",
+      "Lyc",
+      "Merc",
+      "Nat-c",
+      "Ph-ac",
+      "Phos",
+      "Plat",
+      "Ptel",
+      "Puls",
+      "Sanic",
+      "Sars",
+      "Tab"
+    ],
+    "": [
+      "Cocc"
+    ],
+    "room": [
+      "Acon",
+      "Brom"
+    ],
+    "entering, on": [
+      "Arg-m"
+    ],
+    "soup amel.": [
+      "Kali-bi"
+    ]
+  },
+  "WARMTH": {
+    ", sensation as if": [
+      "Merc"
+    ]
+  },
+  "WASHING": {
+    "": [
+      "Merc"
+    ],
+    "in warm water": [
+      "Sumb"
+    ]
+  },
+  "WATCHING": {
+    "general": [
+      "Arg-m",
+      "Bell",
+      "Brom",
+      "Cocc",
+      "Ferr",
+      "Hyos",
+      "Nux-v",
+      "Stram",
+      "Sulph"
+    ],
+    ", crossing running": [
+      "Ang"
+    ],
+    ", exerting, the, amel.": [
+      "Pip-m"
+    ]
+  },
+  "WINDY": {
+    "general": [
+      "Alum",
+      "Bell",
+      "Bov",
+      "Calc-p",
+      "Cocc",
+      "Con",
+      "Nat-c",
+      "Nat-m",
+      "Nux-v",
+      "Petr",
+      "Sumb",
+      "Zinc"
+    ],
+    "amel.": [
+      "Arg-n",
+      "Coca",
+      "Gels",
+      "Phos"
+    ]
+  },
+  "WIPING": {
+    "general": [
+      "Alum",
+      "Calc",
+      "Graph",
+      "Hep",
+      "Kali-bi",
+      "Kali-c",
+      "Lyc",
+      "Merc",
+      "P",
+      "Ph-ac",
+      "Ptel",
+      "Rhod",
+      "Sep",
+      "Sil",
+      "Stram",
+      "Thuj"
+    ],
+    ", while": [
+      "Arg-m",
+      "Form"
+    ],
+    ", when": [
+      "Agar",
+      "Apoc",
+      "Petr"
+    ]
+  },
+  "ADHESION": {
+    "": [
+      "Sabin"
+    ]
+  },
+  "AIR OR": {
+    ", passing through head, sensation as of": [
+      "Anan",
+      "Aur",
+      "Benz-ac",
+      "Colch"
+    ],
+    "general": [
+      "Acon",
+      "Alum",
+      "Ambr",
+      "Ars",
+      "Bell",
+      "Benz-ac",
+      "Bor",
+      "Cadm",
+      "Calc",
+      "Calc-ar",
+      "Calc-p",
+      "Calc-s",
+      "Caps",
+      "Carb-an",
+      "Chin",
+      "Chin-s",
+      "Coloc",
+      "Con",
+      "Cor-r",
+      "Dulc",
+      "Ferr",
+      "Fl-ac",
+      "Gels",
+      "Hell",
+      "Hep",
+      "Kali-ar",
+      "Kali-c",
+      "Kali-n",
+      "Kali-s",
+      "Lac-c",
+      "Lyc",
+      "Mag-c",
+      "Meny",
+      "Merc",
+      "Mill",
+      "Mosch",
+      "Mur-ac",
+      "Nat-c",
+      "Nat-m",
+      "Nit-ac",
+      "Nux-m",
+      "Nux-v",
+      "Op",
+      "Petr",
+      "Ph-ac",
+      "Phos",
+      "Puls",
+      "Sabin",
+      "Sang",
+      "Sanic",
+      "Sel",
+      "Sep",
+      "Sil",
+      "Stront",
+      "Stry",
+      "Sulph",
+      "Valer",
+      "Verb",
+      "Zinc"
+    ],
+    "extending to abdomen": [
+      "Aloe"
+    ],
+    "sensation of a current of, above the eyes": [
+      "Bor"
+    ],
+    ", sensation as if something, were in head": [
+      "Ant-t",
+      "Asar",
+      "Croc",
+      "Crot-c",
+      "Hyper"
+    ],
+    "night": [
+      "Hyper"
+    ],
+    "in bed": [
+      "Hyper"
+    ],
+    "brain were an ant-hill, as if": [
+      "Agar"
+    ],
+    "crawling in forehead, as of a worm": [
+      "Alum"
+    ],
+    "everything in head were, as if": [
+      "Petr"
+    ],
+    "pressing, crawling pain, spreading out from centre, as of something alive": [
+      "Tarax"
+    ],
+    "walking, while": [
+      "Sil"
+    ],
+    ", sensation as if": [
+      "Alum",
+      "Apis",
+      "Calad",
+      "Carb-an",
+      "Con",
+      "Cupr",
+      "Merc",
+      "Mur-ac",
+      "Nat-m",
+      "Nit-ac",
+      "Op",
+      "Sep"
+    ],
+    "left side": [
+      "Calad"
+    ],
+    "eating, after": [
+      "Con"
+    ],
+    "lying, while": [
+      "Merc"
+    ],
+    ", in": [
+      "Mur-ac"
+    ],
+    "left half of": [
+      "Calad"
+    ]
+  },
+  "BALANCING": {
+    "": [
+      "Aesc",
+      "Bell"
+    ],
+    "general": [
+      "Glon",
+      "Lyc",
+      "Staph"
+    ],
+    "difficulty to keep the head erect": [
+      "Glon"
+    ],
+    "motion, on": [
+      "Crot-h",
+      "Fl-ac",
+      "Lyc",
+      "Rhus-t"
+    ],
+    "pendulum-like": [
+      "Cann-i"
+    ],
+    ", sensation as of a, rising up": [
+      "Acon",
+      "Cimic",
+      "Lach",
+      "Plat",
+      "Plb",
+      "Sep",
+      "Staph"
+    ],
+    "beating against skull on beginning to walk": [
+      "Plat"
+    ],
+    "fast in brain": [
+      "Staph"
+    ],
+    "lying on right side": [
+      "Anan"
+    ],
+    "rolling in brain": [
+      "Anan",
+      "Bufo",
+      "Hura",
+      "Lyss"
+    ],
+    ", in": [
+      "Lac-d"
+    ]
+  },
+  "BEATS": {
+    "general": [
+      "Apis",
+      "Con",
+      "Hyos",
+      "Mill",
+      "Rhus-t"
+    ],
+    "wall in sleep": [
+      "Mag-c"
+    ],
+    "feels as if he could beat head to pieces": [
+      "Nit-ac"
+    ]
+  },
+  "BEND": {
+    ")": [
+      "Arn"
+    ],
+    "general": [
+      "Arn",
+      "Cham",
+      "Kali-n"
+    ]
+  },
+  "BOARD OR BAR": {
+    ", sensation as of": [
+      "Acon",
+      "Aesc",
+      "Calc"
+    ],
+    "general": [
+      "Acon",
+      "Alum",
+      "Cann-i",
+      "Carb-an",
+      "Caust",
+      "Chin",
+      "Cocc",
+      "Coff",
+      "Dig",
+      "Dulc",
+      "Eug",
+      "Graph",
+      "Grat",
+      "Hell",
+      "Helon",
+      "Kali-c",
+      "Kali-s",
+      "Kreos",
+      "Laur",
+      "Lyc",
+      "Mag-m",
+      "Mang",
+      "Med",
+      "Merc",
+      "Olnd",
+      "Op",
+      "P",
+      "Plat",
+      "Plb",
+      "Rhus-t",
+      "Sars",
+      "Sil",
+      "Sulph",
+      "Zinc"
+    ],
+    "11 a.m.": [
+      "Zinc"
+    ],
+    "boiling water, as of": [
+      "Acon",
+      "Indg",
+      "Rob"
+    ],
+    "seething in left side of vertex": [
+      "Lach"
+    ],
+    "side lain on": [
+      "Mag-m"
+    ]
+  },
+  "BORES": {
+    "general": [
+      "Apis",
+      "Arn",
+      "Aur",
+      "Bell",
+      "Bry",
+      "Calc-f",
+      "Camph",
+      "Caps",
+      "Crot-t",
+      "Dig",
+      "Fl-ac",
+      "Form",
+      "Hell",
+      "Hep",
+      "Hippoz",
+      "Hyper",
+      "Med",
+      "Merc",
+      "Nat-m",
+      "Nit-ac",
+      "Ph-ac",
+      "Phos",
+      "Puls",
+      "Rob",
+      "Sil",
+      "Spig",
+      "Staph",
+      "Stram",
+      "Sulph",
+      "Tarent",
+      "Tub"
+    ],
+    "sleep, during": [
+      "Hyper"
+    ],
+    "": [
+      "Acon",
+      "Arg-m",
+      "Asaf",
+      "Bell",
+      "Berb",
+      "Bry",
+      "Indg",
+      "Kali-c",
+      "Kreos",
+      "Nux-v",
+      "Par"
+    ],
+    "night": [
+      "Par",
+      "Puls"
+    ],
+    "leaning back while sitting amel.": [
+      "Spig"
+    ],
+    "walking, while": [
+      "Nux-v",
+      "Spig"
+    ],
+    ", in": [
+      "Indg",
+      "Sumb"
+    ]
+  },
+  "CEREBRAL": {
+    "general": [
+      "Acon",
+      "Arn",
+      "Aur",
+      "Bar-c",
+      "Bell",
+      "Camph",
+      "Carb-v",
+      "Chin",
+      "Coff",
+      "Colch",
+      "Con",
+      "Crot-h",
+      "Cupr",
+      "Ferr",
+      "Gels",
+      "Hyos",
+      "Ip",
+      "Lach",
+      "Laur",
+      "Lyc",
+      "Merc",
+      "Nat-m",
+      "Nit-ac",
+      "Nux-m",
+      "Nux-v",
+      "Op",
+      "Phos",
+      "Plb",
+      "Puls",
+      "Stram"
+    ]
+  },
+  "CLUCKING": {
+    "": [
+      "Acon",
+      "Sulph"
+    ],
+    ", chilliness, etc.": [
+      "Abrot",
+      "Acon"
+    ],
+    "general": [
+      "Agar",
+      "Agn",
+      "Alum",
+      "Alumn",
+      "Am-c",
+      "Ambr",
+      "Anac",
+      "Anan",
+      "Ant-c",
+      "Apis",
+      "Arn",
+      "Ars",
+      "Ars-i",
+      "Arum-t",
+      "Asaf",
+      "Asar",
+      "Aur",
+      "Bar-c",
+      "Bell",
+      "Benz-ac",
+      "Bor",
+      "Calc",
+      "Calc-p",
+      "Calc-s",
+      "Camph",
+      "Cann-s",
+      "Caps",
+      "Carb-an",
+      "Carb-s",
+      "Carb-v",
+      "Cedr",
+      "Cham",
+      "Chel",
+      "Chin",
+      "Chin-a",
+      "Chlor",
+      "Cimic",
+      "Cinnb",
+      "Cist",
+      "Coca",
+      "Cocc",
+      "Coff",
+      "Colch",
+      "Con",
+      "Croc",
+      "Cupr",
+      "Dios",
+      "Dulc",
+      "Eup-per",
+      "Ferr",
+      "Ferr-ar",
+      "Ferr-i",
+      "Ferr-p",
+      "Gamb",
+      "Gels",
+      "Gins",
+      "Glon",
+      "Graph",
+      "Grat",
+      "Ham",
+      "Hep",
+      "Hura",
+      "Hydr-ac",
+      "Hyper",
+      "Ind",
+      "Iod",
+      "Kali-ar",
+      "Kali-c",
+      "Kali-i",
+      "Kali-p",
+      "Kali-s",
+      "Kreos",
+      "Lach",
+      "Lachn",
+      "Lact",
+      "Laur",
+      "Lyc",
+      "Mag-m",
+      "Mag-s",
+      "Mang",
+      "Meny",
+      "Merc",
+      "Merc-c",
+      "Merc-i-r",
+      "Mez",
+      "Morph",
+      "Mosch",
+      "Naja",
+      "Nat-m",
+      "Nit-ac",
+      "Nux-v",
+      "Oena",
+      "Ol-an",
+      "Olnd",
+      "P",
+      "Petr",
+      "Ph-ac",
+      "Phel",
+      "Phos",
+      "Phyt",
+      "Puls",
+      "Ran-s",
+      "Raph",
+      "Rhus-t",
+      "Rhus-v",
+      "Rumx",
+      "Ruta",
+      "Sabad",
+      "Sang",
+      "Sanic",
+      "Sep",
+      "Sil",
+      "Stann",
+      "Staph",
+      "Stront",
+      "Stry",
+      "Sul-ac",
+      "Sulph",
+      "Sumb",
+      "Tarent",
+      "Thea",
+      "Til",
+      "Valer",
+      "Verat",
+      "Verb",
+      "Vip",
+      "Zinc",
+      "Zing"
+    ],
+    "morning": [
+      "Cedr",
+      "Dios",
+      "Lact",
+      "Sumb"
+    ],
+    "evening": [
+      "Alum",
+      "Ars-i",
+      "Dulc",
+      "Hyper",
+      "Kreos",
+      "Merc",
+      "Stry"
+    ],
+    "night": [
+      "Cimic",
+      "Lyc"
+    ],
+    "air, as from cold": [
+      "Acon",
+      "Arg-n"
+    ],
+    "as if cold air passed over brain": [
+      "Anan",
+      "Meny"
+    ],
+    "alternating with heat": [
+      "Bell",
+      "Calc",
+      "Merc"
+    ],
+    "spreads from the": [
+      "Mosch",
+      "Valer"
+    ],
+    "breakfast, after": [
+      "Arn"
+    ],
+    "burning, after": [
+      "Sulph"
+    ],
+    "cold cloth around the brain, as if": [
+      "Glon"
+    ],
+    "congestion of, with": [
+      "Glon"
+    ],
+    "covered, even when": [
+      "Mang"
+    ],
+    "heat, with": [
+      "Chin",
+      "Puls"
+    ],
+    "internally": [
+      "Arn",
+      "Bell"
+    ],
+    "lying, while, amel.": [
+      "Calc"
+    ],
+    "menses, during": [
+      "Ant-t",
+      "Calc",
+      "Mag-s",
+      "Sep",
+      "Sulph"
+    ],
+    "motion, on": [
+      "Chel",
+      "Sep"
+    ],
+    "perspiration, with": [
+      "Merc-c"
+    ],
+    "pressure of hat, from": [
+      "Valer"
+    ],
+    "riding, after": [
+      "Lyc"
+    ],
+    "sitting, while": [
+      "Mez"
+    ],
+    "spot, as of a cold": [
+      "Sulph"
+    ],
+    "stool, before": [
+      "Carb-an"
+    ],
+    "after": [
+      "Plat"
+    ],
+    "stooping agg.": [
+      "Alum",
+      "Sep"
+    ],
+    "walking amel.": [
+      "Gins"
+    ]
+  },
+  "COLDNESS": {
+    "morning": [
+      "Cedr"
+    ],
+    "afternoon": [
+      "Nat-a"
+    ],
+    "evening": [
+      "Alum",
+      "Hyper",
+      "Sulph",
+      "Zinc"
+    ],
+    "night": [
+      "Lyc"
+    ],
+    "general": [
+      "Arn",
+      "Arum-t",
+      "Asar",
+      "Aur-m",
+      "Bar-c",
+      "Berb",
+      "Bry",
+      "Calc",
+      "Calc-p",
+      "Calc-s",
+      "Cann-i",
+      "Cann-s",
+      "Chel",
+      "Chin-s",
+      "Coc-c",
+      "Con",
+      "Croc",
+      "Dulc",
+      "Echi",
+      "Ferr-p",
+      "Form",
+      "Gamb",
+      "Gels",
+      "Gins",
+      "Grat",
+      "Kali-bi",
+      "Kali-c",
+      "Kali-i",
+      "Kali-n",
+      "Kali-s",
+      "Lach",
+      "Laur",
+      "Lob",
+      "Mang",
+      "Merc-c",
+      "Myric",
+      "Nat-m",
+      "Nux-m",
+      "Ol-an",
+      "Ph-ac",
+      "Phos",
+      "Plat",
+      "Podo",
+      "Psor",
+      "Rhod",
+      "Sep",
+      "Sil",
+      "Sulph",
+      "Tarent",
+      "Thea",
+      "Valer",
+      "Verat"
+    ],
+    "cold, penetrates painfully": [
+      "Zinc"
+    ],
+    "externally": [
+      "Cinnb",
+      "Cist",
+      "Gels",
+      "Laur",
+      "Sulph"
+    ],
+    "heat, during": [
+      "Chin",
+      "Puls"
+    ],
+    "with external heat": [
+      "Agar"
+    ],
+    "ice, as from": [
+      "Agar",
+      "Glon",
+      "Laur"
+    ],
+    "menses, during": [
+      "Sulph"
+    ],
+    "warm room, in": [
+      "Cist"
+    ],
+    "": [
+      "Acon",
+      "Agar",
+      "Aloe",
+      "Alum",
+      "Am-c",
+      "Arn",
+      "Bell",
+      "Berb"
+    ],
+    "air, like cool": [
+      "Acon"
+    ],
+    "as if frozen": [
+      "Gels",
+      "Nux-v"
+    ],
+    "right": [
+      "Bar-c",
+      "Berb",
+      "Tarent"
+    ],
+    "but feels burning hot": [
+      "Bar-c"
+    ],
+    "left": [
+      "Lach",
+      "Phos"
+    ],
+    "spots in": [
+      "Croc"
+    ],
+    "above the ear": [
+      "Asar"
+    ],
+    "warmth amel.": [
+      "Lach"
+    ],
+    "as if without covering upper part": [
+      "Arum-t"
+    ],
+    "covered, even when": [
+      "Mang"
+    ],
+    "icy coldness": [
+      "Agar",
+      "Arn"
+    ],
+    "when covered": [
+      "Valer"
+    ],
+    "motion, during": [
+      "Sep"
+    ],
+    "spots, in": [
+      "Mang"
+    ],
+    "a small": [
+      "Mang"
+    ],
+    "stooping, on": [
+      "Sep"
+    ],
+    "water, as from cold": [
+      "Tarent"
+    ],
+    "extending to sacrum": [
+      "Acon"
+    ]
+  },
+  "COLD": {
+    "to": [
+      "Ant-c"
+    ],
+    "general": [
+      "Ars",
+      "Bar-c",
+      "Bell",
+      "Benz-ac",
+      "Bor",
+      "Brom",
+      "Carb-an",
+      "Carb-v",
+      "Card-m",
+      "Chin",
+      "Eup-per",
+      "Ferr-p",
+      "Graph",
+      "Grat",
+      "Hep",
+      "Hyos",
+      "Kali-ar",
+      "Kali-c",
+      "Kali-p",
+      "Lach",
+      "Lyc",
+      "Mag-m",
+      "Merc",
+      "Mez",
+      "Nat-m",
+      "Nux-m",
+      "Nux-v",
+      "Phos",
+      "Psor",
+      "Rhus-t",
+      "Sanic",
+      "Sep",
+      "Sil",
+      "Squil",
+      "Stront",
+      "Thuj",
+      "Zinc"
+    ],
+    "morning": [
+      "Carb-v"
+    ],
+    "evening": [
+      "Ant-c"
+    ],
+    ", painless, in": [
+      "Caust"
+    ]
+  },
+  "CONCUSSION": {
+    "general": [
+      "Acon",
+      "Aesc",
+      "Aeth",
+      "Agar",
+      "Aloe",
+      "Alum",
+      "Alumn",
+      "Am-c",
+      "Am-m",
+      "Ambr",
+      "Aml-n",
+      "Anac",
+      "Ant-c",
+      "Apis",
+      "Arg-m",
+      "Arg-n",
+      "Arn",
+      "Ars-h",
+      "Ars-i",
+      "Asaf",
+      "Aster",
+      "Aur",
+      "Aur-s",
+      "Bar-c",
+      "Bell",
+      "Bor",
+      "Bov",
+      "Brom",
+      "Bry",
+      "Bufo",
+      "Cact",
+      "Calc",
+      "Calc-p",
+      "Calc-s",
+      "Camph",
+      "Cann-i",
+      "Cann-s",
+      "Canth",
+      "Carb-ac",
+      "Carb-an",
+      "Carb-s",
+      "Carb-v",
+      "Caust",
+      "Cedr",
+      "Cham",
+      "Chel",
+      "Chin",
+      "Chin-a",
+      "Chlor",
+      "Cic",
+      "Cimic",
+      "Cinnb",
+      "Clem",
+      "Coc-c",
+      "Cocc",
+      "Coff",
+      "Colch",
+      "Coloc",
+      "Con",
+      "Cop",
+      "Cor-r",
+      "Corn",
+      "Croc",
+      "Crot-h",
+      "Crot-t",
+      "Cupr",
+      "Cur",
+      "Cycl",
+      "Dig",
+      "Dulc",
+      "Elaps",
+      "Etc",
+      "Eug",
+      "Eup-per",
+      "Ferr",
+      "Ferr-ar",
+      "Ferr-i",
+      "Ferr-p",
+      "Fl-ac",
+      "Form",
+      "Gamb",
+      "Gels",
+      "Glon",
+      "Gran",
+      "Graph",
+      "Grat",
+      "Hell",
+      "Hep",
+      "Hura",
+      "Hydr",
+      "Hydr-ac",
+      "Hyos",
+      "Hyper",
+      "Ign",
+      "Indg",
+      "Iod",
+      "Jatr",
+      "Kali-ar",
+      "Kali-bi",
+      "Kali-br",
+      "Kali-c",
+      "Kali-chl",
+      "Kali-i",
+      "Kali-n",
+      "Kali-p",
+      "Kali-s",
+      "Kalm",
+      "Kreos",
+      "Lach",
+      "Lact",
+      "Lact-ac",
+      "Laur",
+      "Led",
+      "Lil-t",
+      "Lyc",
+      "Lyss",
+      "Mag-c",
+      "Mag-m",
+      "Mag-s",
+      "Mang",
+      "Meli",
+      "Merc",
+      "Merc-c",
+      "Merc-i-f",
+      "Mill",
+      "Mosch",
+      "Naja",
+      "Nat-a",
+      "Nat-c",
+      "Nat-m",
+      "Nat-p",
+      "Nat-s",
+      "Nit-ac",
+      "Nux-m",
+      "Nux-v",
+      "Ol-an",
+      "Op",
+      "P",
+      "Paeon",
+      "Par",
+      "Petr",
+      "Ph-ac",
+      "Phel",
+      "Phos",
+      "Pic-ac",
+      "Plat",
+      "Plb",
+      "Psor",
+      "Puls",
+      "Ran-b",
+      "Rhus-t",
+      "Sabin",
+      "Sal-ac",
+      "Sang",
+      "Sec",
+      "Seneg",
+      "Sep",
+      "Sil",
+      "Spong",
+      "Staph",
+      "Stram",
+      "Stry",
+      "Sul-ac",
+      "Sulph",
+      "Tab",
+      "Tarax",
+      "Tarent",
+      "Tell",
+      "Thea",
+      "Thuj",
+      "Urt-u",
+      "Valer",
+      "Verat",
+      "Verat-v",
+      "Viol-o",
+      "Zinc",
+      "Zing",
+      "Ziz"
+    ],
+    ")": [
+      "Acet-ac"
+    ]
+  },
+  "CONGESTION": {
+    "morning": [
+      "Calc",
+      "Cham",
+      "Chin-s",
+      "Glon",
+      "Lach",
+      "Lact-ac"
+    ],
+    "general": [
+      "Acon",
+      "Apis",
+      "Arn",
+      "Ars",
+      "Aster",
+      "Aur",
+      "Bell",
+      "Berb",
+      "Bry",
+      "Cact",
+      "Calc",
+      "Calc-p",
+      "Calc-s",
+      "Camph",
+      "Canth",
+      "Carb-v",
+      "Caust",
+      "Cham",
+      "Chin",
+      "Cimic",
+      "Cinnb",
+      "Coc-c",
+      "Cocc",
+      "Coff",
+      "Con",
+      "Crot-h",
+      "Cupr",
+      "Cycl",
+      "Elaps",
+      "Ferr",
+      "Ferr-p",
+      "Gels",
+      "Glon",
+      "Graph",
+      "Grat",
+      "Hell",
+      "Hep",
+      "Hyper",
+      "Iod",
+      "Kali-c",
+      "Kalm",
+      "Lach",
+      "Lyc",
+      "Mag-c",
+      "Mag-m",
+      "Mag-s",
+      "Manc",
+      "Mang",
+      "Meli",
+      "Merc",
+      "Mill",
+      "Mosch",
+      "Naja",
+      "Nat-m",
+      "Nux-m",
+      "Nux-v",
+      "Op",
+      "P",
+      "Ph-ac",
+      "Phos",
+      "Psor",
+      "Puls",
+      "Raph",
+      "Rhus-t",
+      "Rumx",
+      "Sang",
+      "Sil",
+      "Staph",
+      "Stram",
+      "Sulph",
+      "Tell",
+      "Thuj",
+      "Tril",
+      "Valer",
+      "Verat",
+      "Verat-v",
+      "Zinc"
+    ],
+    "rising, on": [
+      "Eug",
+      "Lyc"
+    ],
+    "forenoon": [
+      "Mag-c",
+      "Mag-s"
+    ],
+    "noon": [
+      "Cham",
+      "Naja"
+    ],
+    "agg. toward, gradually ceasing toward evening, with terrible pain, would press head against wall; fears going mad": [
+      "Stram"
+    ],
+    "afternoon": [
+      "Am-c",
+      "Cham",
+      "Chin-s",
+      "Graph",
+      "Lach",
+      "Nat-m",
+      "Paeon",
+      "Ran-b",
+      "Sil"
+    ],
+    "5 p.m., to midnight": [
+      "Glon"
+    ],
+    "evening": [
+      "Calc",
+      "Caust",
+      "Chin-s",
+      "Croc",
+      "Fl-ac",
+      "Hyos",
+      "Indg",
+      "Mag-m",
+      "Mill",
+      "Nat-c",
+      "Nat-p",
+      "Nux-v",
+      "Phos",
+      "Puls",
+      "Rhus-t",
+      "Trom"
+    ],
+    "night": [
+      "Am-c",
+      "Anac"
+    ],
+    "air, in open": [
+      "Lil-t",
+      "Nat-c",
+      "Ran-b"
+    ],
+    "alcoholic liquors agg.": [
+      "Calc-s"
+    ],
+    "bed, while in": [
+      "Anac",
+      "Kali-c",
+      "Lyc",
+      "Mill"
+    ],
+    "bending head backward, on": [
+      "Bell"
+    ],
+    "forward": [
+      "Lac-c"
+    ],
+    "blowing nose, on": [
+      "Nit-ac"
+    ],
+    "chest, during shocks in": [
+      "Tab"
+    ],
+    "coffee, from": [
+      "Am-c"
+    ],
+    "constipation, during": [
+      "Aster",
+      "Crot-h"
+    ],
+    "coughing, on": [
+      "Acon",
+      "Ambr",
+      "Anac",
+      "Bell",
+      "Calc",
+      "Calc-s",
+      "Carb-v",
+      "Caust",
+      "Cham",
+      "Chin",
+      "Dulc",
+      "Ferr",
+      "Hyos",
+      "Iod",
+      "Kali-c",
+      "Kali-p",
+      "Kali-s",
+      "Lach",
+      "Laur",
+      "Lyc",
+      "Mag-c",
+      "Mag-m",
+      "Merc",
+      "Mosch",
+      "Nit-ac",
+      "Nux-v",
+      "Phos",
+      "Rhus-t",
+      "Samb",
+      "Seneg",
+      "Sep",
+      "Sil",
+      "Spong",
+      "Stram",
+      "Sulph"
+    ],
+    "dinner, after": [
+      "Cycl",
+      "Nux-m",
+      "Psor"
+    ],
+    "eating, before": [
+      "Uran"
+    ],
+    "after": [
+      "Calc",
+      "Chin",
+      "Cinnb",
+      "Cop",
+      "Cycl",
+      "Glon",
+      "Ign",
+      "Nux-m",
+      "Petr",
+      "Sulph"
+    ],
+    "high living, from": [
+      "Verat-v"
+    ],
+    "epilepsy, before": [
+      "Calc-ar"
+    ],
+    "epistaxis, with": [
+      "Ant-c",
+      "Bell",
+      "Bry",
+      "Carb-v",
+      "Croc",
+      "Lach",
+      "Lil-t",
+      "Meli",
+      "Nux-v",
+      "Pic-ac"
+    ],
+    "feels as if, were coming on": [
+      "Ign",
+      "Lact-ac"
+    ],
+    "excitement, during": [
+      "Asaf"
+    ],
+    "exercise, on taking": [
+      "Sulph"
+    ],
+    "heart, at every throb of": [
+      "Cimic"
+    ],
+    "as if blood rushed from heart to head": [
+      "Nux-m"
+    ],
+    "heat of face, with": [
+      "Acon",
+      "Asaf",
+      "Canth",
+      "Cham",
+      "Chin-s",
+      "Coff",
+      "Cop"
+    ],
+    "lifting, after": [
+      "Nat-c"
+    ],
+    "lochia, from suppressed": [
+      "Acon",
+      "Bell",
+      "Bry",
+      "Cimic"
+    ],
+    "lying, while": [
+      "Cycl",
+      "Lac-c",
+      "Lyss",
+      "Mang",
+      "Naja"
+    ],
+    "amel.": [
+      "Nat-c"
+    ],
+    "on temple (r)": [
+      "Mur-ac"
+    ],
+    "during": [
+      "Acon"
+    ]
+  }
+}

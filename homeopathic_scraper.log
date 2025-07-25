@@ -1,0 +1,179 @@
+2025-07-24 20:24:11,216 - INFO - Starting to scrape 2 pages for Mind section
+2025-07-24 20:24:11,216 - INFO - Progress: 1/2 pages
+2025-07-24 20:24:12,898 - INFO - Scraping: http://homeoint.org/books/kentrep/kent0105.htm#P106
+2025-07-24 20:24:13,730 - INFO - Page 1: 55 main symptoms, 19 entries, 59 medicines
+2025-07-24 20:24:13,730 - INFO - Progress: 2/2 pages
+2025-07-24 20:24:16,424 - INFO - Scraping: http://homeoint.org/books/kentrep/kent0110.htm#P111
+2025-07-24 20:24:16,794 - INFO - Page 2: 14 main symptoms, 8 entries, 37 medicines
+2025-07-24 20:24:16,794 - INFO - Scraping completed. Data saved to mind_repertory_fixed.json
+2025-07-24 20:24:16,794 - INFO - Total main symptoms: 69
+2025-07-24 20:24:16,794 - INFO - Total entries: 27
+2025-07-24 20:24:16,794 - INFO - Sample symptoms extracted:
+2025-07-24 20:24:16,794 - INFO -   1. 'SUMMER':
+2025-07-24 20:24:16,794 - INFO -   2. 'SUNLIGHT and heat':
+2025-07-24 20:24:16,794 - INFO -   3. 'SUPPORTING head amel':
+2025-07-24 20:24:16,794 - INFO -   4. 'SUSPENSION of the sense':
+2025-07-24 20:24:16,810 - INFO -   5. 'SWIMMING':
+2025-07-24 22:14:39,518 - INFO - Starting to scrape 2 pages for Mind section
+2025-07-24 22:14:39,518 - INFO - Progress: 1/2 pages
+2025-07-24 22:14:41,799 - INFO - Scraping: http://homeoint.org/books/kentrep/kent0105.htm#P106
+2025-07-24 22:14:43,248 - INFO - Extracted 0 main symptoms from http://homeoint.org/books/kentrep/kent0105.htm#P106
+2025-07-24 22:14:43,249 - WARNING - No data extracted from page 1
+2025-07-24 22:14:43,250 - INFO - Progress: 2/2 pages
+2025-07-24 22:14:44,312 - INFO - Scraping: http://homeoint.org/books/kentrep/kent0110.htm#P111
+2025-07-24 22:14:44,562 - INFO - Extracted 0 main symptoms from http://homeoint.org/books/kentrep/kent0110.htm#P111
+2025-07-24 22:14:44,562 - WARNING - No data extracted from page 2
+2025-07-24 22:14:44,562 - INFO - Scraping completed. Data saved to mind_repertory_fixed.json
+2025-07-24 22:14:44,562 - INFO - Total main symptoms: 0
+2025-07-24 22:14:44,562 - INFO - Total entries: 0
+2025-07-24 22:17:23,431 - INFO - Starting to scrape 2 pages for Mind section
+2025-07-24 22:17:23,432 - INFO - Progress: 1/2 pages
+2025-07-24 22:17:23,432 - INFO - Scraping: http://homeoint.org/books/kentrep/kent0105.htm#P106
+2025-07-24 22:17:26,328 - INFO - Extracted 0 symptoms from http://homeoint.org/books/kentrep/kent0105.htm#P106
+2025-07-24 22:17:26,328 - WARNING - No data extracted from page 1
+2025-07-24 22:17:26,328 - INFO - Progress: 2/2 pages
+2025-07-24 22:17:26,328 - INFO - Scraping: http://homeoint.org/books/kentrep/kent0110.htm#P111
+2025-07-24 22:17:28,466 - INFO - Extracted 0 symptoms from http://homeoint.org/books/kentrep/kent0110.htm#P111
+2025-07-24 22:17:28,467 - WARNING - No data extracted from page 2
+2025-07-24 22:17:28,469 - INFO - Scraping completed. Data saved to mind_repertory_fixed.json
+2025-07-24 22:17:28,470 - INFO - Total main symptoms: 0
+2025-07-24 22:17:28,471 - INFO - Total entries: 0
+2025-07-24 23:15:16,214 - INFO - Starting to scrape 2 pages for Mind section
+2025-07-24 23:15:16,214 - INFO - Progress: 1/2 pages
+2025-07-24 23:15:16,215 - INFO - Scraping: http://homeoint.org/books/kentrep/kent0105.htm#P106
+2025-07-24 23:15:20,851 - INFO - Extracted 0 symptoms from http://homeoint.org/books/kentrep/kent0105.htm#P106
+2025-07-24 23:15:20,851 - WARNING - No data extracted from page 1
+2025-07-24 23:15:20,851 - INFO - Progress: 2/2 pages
+2025-07-24 23:15:20,851 - INFO - Scraping: http://homeoint.org/books/kentrep/kent0110.htm#P111
+2025-07-24 23:15:22,182 - INFO - Extracted 0 symptoms from http://homeoint.org/books/kentrep/kent0110.htm#P111
+2025-07-24 23:15:22,182 - WARNING - No data extracted from page 2
+2025-07-24 23:15:22,182 - INFO - Scraping completed. Data saved to mind_repertory_fixed.json
+2025-07-24 23:15:22,182 - INFO - Total main symptoms: 0
+2025-07-24 23:15:22,182 - INFO - Total entries: 0
+2025-07-24 23:19:59,580 - INFO - Starting to scrape 2 pages for Mind section
+2025-07-24 23:19:59,596 - INFO - Progress: 1/2 pages
+2025-07-24 23:19:59,596 - INFO - Scraping: http://homeoint.org/books/kentrep/kent0105.htm#P106
+2025-07-24 23:20:02,043 - INFO - Extracted 16 symptoms from http://homeoint.org/books/kentrep/kent0105.htm#P106
+2025-07-24 23:20:02,043 - INFO - Page 1: 16 main symptoms, 25 entries, 60 medicines
+2025-07-24 23:20:02,043 - INFO - Progress: 2/2 pages
+2025-07-24 23:20:02,043 - INFO - Scraping: http://homeoint.org/books/kentrep/kent0110.htm#P111
+2025-07-24 23:20:03,974 - INFO - Extracted 18 symptoms from http://homeoint.org/books/kentrep/kent0110.htm#P111
+2025-07-24 23:20:03,974 - INFO - Page 2: 18 main symptoms, 33 entries, 78 medicines
+2025-07-24 23:20:03,974 - INFO - Scraping completed. Data saved to mind_repertory_fixed.json
+2025-07-24 23:20:03,974 - INFO - Total main symptoms: 26
+2025-07-24 23:20:03,974 - INFO - Total entries: 50
+2025-07-24 23:20:03,974 - INFO - Sample symptoms extracted:
+2025-07-24 23:20:03,974 - INFO -   1. 'Bell.':
+2025-07-24 23:20:03,974 - INFO -     - 'in bed, on': ['Con', 'Bell', 'Ind']
+2025-07-24 23:20:03,974 - INFO -     - 'sensitive to draft': ['Acon', 'Chin', 'Bell', 'Sil']
+2025-07-24 23:20:03,974 - INFO -     - 'during': ['Gels', 'Bell']
+2025-07-24 23:20:03,974 - INFO -   2. 'Bry.':
+2025-07-24 23:20:03,986 - INFO -     - 'or moving the head': ['Acon', 'Con', 'Bry']
+2025-07-24 23:20:03,986 - INFO -   3. 'Calc.':
+2025-07-24 23:20:03,987 - INFO -     - 'quickly': ['Calc', 'Aloe', 'Con']
+2025-07-24 23:20:03,987 - INFO -     - 'icy': ['Calc', 'Agar', 'Ind']
+2025-07-24 23:20:03,988 - INFO -     - 'internally': ['Calc', 'Arn']
+2025-07-24 23:20:03,988 - INFO -   4. 'Verat.':
+2025-07-24 23:20:03,992 - INFO -     - 'with': ['Verat', 'Ail']
+2025-07-24 23:20:03,993 - INFO -   5. 'Nat-m.':
+2025-07-24 23:20:03,999 - INFO -     - 'WALKING, while': ['Acon', 'Nux-v', 'Nat-m', 'Phos', 'Puls']
+2025-07-24 23:20:03,999 - INFO -     - 'white': ['Nat-m', 'Thuj', 'Kali-chl']
+2025-07-24 23:24:18,116 - INFO - Starting to scrape 2 pages for Mind section
+2025-07-24 23:24:18,116 - INFO - Progress: 1/2 pages
+2025-07-24 23:24:18,116 - INFO - Scraping: http://homeoint.org/books/kentrep/kent0105.htm#P106
+2025-07-24 23:24:22,310 - INFO - Extracted 16 symptoms from http://homeoint.org/books/kentrep/kent0105.htm#P106
+2025-07-24 23:24:22,310 - INFO - Page 1: 16 main symptoms, 25 entries, 60 medicines
+2025-07-24 23:24:22,310 - INFO - Progress: 2/2 pages
+2025-07-24 23:24:22,310 - INFO - Scraping: http://homeoint.org/books/kentrep/kent0110.htm#P111
+2025-07-24 23:24:24,940 - INFO - Extracted 18 symptoms from http://homeoint.org/books/kentrep/kent0110.htm#P111
+2025-07-24 23:24:24,940 - INFO - Page 2: 18 main symptoms, 33 entries, 78 medicines
+2025-07-24 23:24:24,957 - INFO - Scraping completed. Data saved to mind_repertory_fixed.json
+2025-07-24 23:24:24,957 - INFO - Total main symptoms: 26
+2025-07-24 23:24:24,957 - INFO - Total entries: 50
+2025-07-24 23:24:24,957 - INFO - Sample symptoms extracted:
+2025-07-24 23:24:24,957 - INFO -   1. 'Bell.':
+2025-07-24 23:24:24,957 - INFO -     - 'in bed, on': ['Ind', 'Bell', 'Con']
+2025-07-24 23:24:24,957 - INFO -     - 'sensitive to draft': ['Chin', 'Bell', 'Sil', 'Acon']
+2025-07-24 23:24:24,957 - INFO -     - 'during': ['Bell', 'Gels']
+2025-07-24 23:24:24,957 - INFO -   2. 'Bry.':
+2025-07-24 23:24:24,957 - INFO -     - 'or moving the head': ['Bry', 'Con', 'Acon']
+2025-07-24 23:24:24,957 - INFO -   3. 'Calc.':
+2025-07-24 23:24:24,957 - INFO -     - 'quickly': ['Aloe', 'Con', 'Calc']
+2025-07-24 23:24:24,957 - INFO -     - 'icy': ['Ind', 'Agar', 'Calc']
+2025-07-24 23:24:24,957 - INFO -     - 'internally': ['Arn', 'Calc']
+2025-07-24 23:24:24,957 - INFO -   4. 'Verat.':
+2025-07-24 23:24:24,957 - INFO -     - 'with': ['Ail', 'Verat']
+2025-07-24 23:24:24,957 - INFO -   5. 'Nat-m.':
+2025-07-24 23:24:24,957 - INFO -     - 'WALKING, while': ['Nat-m', 'Puls', 'Phos', 'Nux-v', 'Acon']
+2025-07-24 23:24:24,957 - INFO -     - 'white': ['Kali-chl', 'Nat-m', 'Thuj']
+2025-07-24 23:24:49,266 - INFO - Starting to scrape 2 pages for Mind section
+2025-07-24 23:24:49,267 - INFO - Progress: 1/2 pages
+2025-07-24 23:24:49,267 - INFO - Scraping: http://homeoint.org/books/kentrep/kent0105.htm#P106
+2025-07-24 23:24:51,210 - INFO - Extracted 16 symptoms from http://homeoint.org/books/kentrep/kent0105.htm#P106
+2025-07-24 23:24:51,210 - INFO - Page 1: 16 main symptoms, 25 entries, 60 medicines
+2025-07-24 23:24:51,210 - INFO - Progress: 2/2 pages
+2025-07-24 23:24:51,210 - INFO - Scraping: http://homeoint.org/books/kentrep/kent0110.htm#P111
+2025-07-24 23:24:52,758 - INFO - Extracted 18 symptoms from http://homeoint.org/books/kentrep/kent0110.htm#P111
+2025-07-24 23:24:52,758 - INFO - Page 2: 18 main symptoms, 33 entries, 78 medicines
+2025-07-24 23:24:52,758 - INFO - Scraping completed. Data saved to mind_repertory_fixed.json
+2025-07-24 23:24:52,758 - INFO - Total main symptoms: 26
+2025-07-24 23:24:52,758 - INFO - Total entries: 50
+2025-07-24 23:24:52,758 - INFO - Sample symptoms extracted:
+2025-07-24 23:24:52,758 - INFO -   1. 'Bell.':
+2025-07-24 23:24:52,758 - INFO -     - 'in bed, on': ['Con', 'Ind', 'Bell']
+2025-07-24 23:24:52,771 - INFO -     - 'sensitive to draft': ['Chin', 'Sil', 'Acon', 'Bell']
+2025-07-24 23:24:52,772 - INFO -     - 'during': ['Gels', 'Bell']
+2025-07-24 23:24:52,774 - INFO -   2. 'Bry.':
+2025-07-24 23:24:52,777 - INFO -     - 'or moving the head': ['Con', 'Acon', 'Bry']
+2025-07-24 23:24:52,777 - INFO -   3. 'Calc.':
+2025-07-24 23:24:52,777 - INFO -     - 'quickly': ['Aloe', 'Con', 'Calc']
+2025-07-24 23:24:52,777 - INFO -     - 'icy': ['Ind', 'Agar', 'Calc']
+2025-07-24 23:24:52,777 - INFO -     - 'internally': ['Calc', 'Arn']
+2025-07-24 23:24:52,777 - INFO -   4. 'Verat.':
+2025-07-24 23:24:52,777 - INFO -     - 'with': ['Ail', 'Verat']
+2025-07-24 23:24:52,777 - INFO -   5. 'Nat-m.':
+2025-07-24 23:24:52,777 - INFO -     - 'WALKING, while': ['Nux-v', 'Nat-m', 'Phos', 'Acon', 'Puls']
+2025-07-24 23:24:52,777 - INFO -     - 'white': ['Nat-m', 'Thuj', 'Kali-chl']
+2025-07-24 23:28:15,209 - INFO - Starting to scrape 2 pages for Mind section
+2025-07-24 23:28:15,209 - INFO - Progress: 1/2 pages
+2025-07-24 23:28:15,209 - INFO - Scraping: http://homeoint.org/books/kentrep/kent0105.htm#P106
+2025-07-24 23:28:16,940 - INFO - Extracted 168 symptoms from http://homeoint.org/books/kentrep/kent0105.htm#P106
+2025-07-24 23:28:16,940 - INFO - Page 1: 168 main symptoms, 181 entries, 251 medicines
+2025-07-24 23:28:16,940 - INFO - Progress: 2/2 pages
+2025-07-24 23:28:16,940 - INFO - Scraping: http://homeoint.org/books/kentrep/kent0110.htm#P111
+2025-07-24 23:28:19,487 - INFO - Extracted 202 symptoms from http://homeoint.org/books/kentrep/kent0110.htm#P111
+2025-07-24 23:28:19,487 - INFO - Page 2: 202 main symptoms, 220 entries, 319 medicines
+2025-07-24 23:28:19,504 - INFO - Scraping completed. Data saved to mind_repertory_fixed.json
+2025-07-24 23:28:19,504 - INFO - Total main symptoms: 302
+2025-07-24 23:28:19,504 - INFO - Total entries: 340
+2025-07-24 23:28:19,508 - INFO - Sample symptoms extracted:
+2025-07-24 23:28:19,508 - INFO -   1. 'SUDDEN':
+2025-07-24 23:28:19,510 - INFO -     - 'general': ['Aeth']
+2025-07-24 23:28:19,510 - INFO -   2. 'as if there were a barrier between his organs of sense and external objects':
+2025-07-24 23:28:19,510 - INFO -     - 'general': ['Aeth']
+2025-07-24 23:28:19,512 - INFO -   3. 'after animated':
+2025-07-24 23:28:19,512 - INFO -     - 'general': ['Bor']
+2025-07-24 23:28:19,514 - INFO -   4. 'long':
+2025-07-24 23:28:19,514 - INFO -     - 'general': ['Merl', 'Thuj']
+2025-07-24 23:28:19,514 - INFO -   5. 'amel.':
+2025-07-24 23:28:19,517 - INFO -     - 'general': ['Laur', 'Carb-ac', 'Acon', 'Op', 'Berb', 'Asar', 'Nat-c', 'Hep', 'Arg-n', 'Agar', 'Aur', 'Dulc', 'Glon', 'Cham', 'Apis']
+2025-07-24 23:28:19,517 - INFO -     - 'after': ['Grat']
+2025-07-24 23:33:52,172 - INFO - Starting to scrape 2 pages for Mind section
+2025-07-24 23:33:52,172 - INFO - Progress: 1/2 pages
+2025-07-24 23:33:52,172 - INFO - Scraping: http://homeoint.org/books/kentrep/kent0105.htm#P106
+2025-07-24 23:33:53,703 - INFO - Extracted 3 main symptoms from http://homeoint.org/books/kentrep/kent0105.htm#P106
+2025-07-24 23:33:53,703 - INFO - Page 1: 3 main symptoms, 3 entries, 9 medicines
+2025-07-24 23:33:53,703 - INFO - Progress: 2/2 pages
+2025-07-24 23:33:53,703 - INFO - Scraping: http://homeoint.org/books/kentrep/kent0110.htm#P111
+2025-07-24 23:33:55,253 - INFO - Extracted 0 main symptoms from http://homeoint.org/books/kentrep/kent0110.htm#P111
+2025-07-24 23:33:55,253 - WARNING - No data extracted from page 2
+2025-07-24 23:33:55,253 - INFO - Scraping completed. Data saved to mind_repertory_fixed.json
+2025-07-24 23:33:55,268 - INFO - Total main symptoms: 3
+2025-07-24 23:33:55,269 - INFO - Total entries: 3
+2025-07-24 23:33:55,269 - INFO - Sample symptoms extracted:
+2025-07-24 23:33:55,270 - INFO -   1. 'WALKING':
+2025-07-24 23:33:55,271 - INFO -     - 'while': ['Phos', 'Puls', 'Acon', 'Nux-v', 'Nat-m']
+2025-07-24 23:33:55,271 - INFO -   2. 'BORES':
+2025-07-24 23:33:55,271 - INFO -     - 'head in pillow': ['Apis', 'Tub', 'Bell']
+2025-07-24 23:33:55,272 - INFO -   3. 'COMMOTION':
+2025-07-24 23:33:55,273 - INFO -     - 'painless, in': ['Caust']

@@ -1,0 +1,250 @@
+{
+  "Mind": {
+    "SUMMER": {},
+    "SUNLIGHT and heat": {},
+    "SUPPORTING head amel": {},
+    "SUSPENSION of the sense": {},
+    "SWIMMING": {},
+    "SWINGING": {},
+    "SYNCOPE": {
+      "general": [
+        "Nux-v"
+      ]
+    },
+    "SYPHILITIC": {},
+    "Aur.TALKING": {},
+    "TEA": {
+      "general": [
+        "Sep",
+        "Nat-m"
+      ]
+    },
+    "THINKING about it": {},
+    "TOUCH agg": {},
+    "TREMBLING": {},
+    "TURNED": {
+      "general": [
+        "Con"
+      ]
+    },
+    "TURNING": {
+      "general": [
+        "Bell",
+        "Bry",
+        "Cycl",
+        "Puls",
+        "Calc"
+      ]
+    },
+    "URINATION": {},
+    "VERTEX": {},
+    "VEXATION": {},
+    "VISION": {
+      "general": [
+        "Ferr",
+        "Gels"
+      ]
+    },
+    "VOMITING": {
+      "general": [
+        "Phos",
+        "Verat",
+        "Lac-c",
+        "Calc-ar",
+        "Sulph"
+      ]
+    },
+    "WALLS of house seem to be falling in on her": {},
+    "WARM bed amel": {
+      "general": [
+        "Nat-c"
+      ]
+    },
+    "WARMTH rose from chest to throat": {},
+    "WASHING feet": {},
+    "WATCHING and loss of sleep": {
+      "general": [
+        "Cocc"
+      ]
+    },
+    "Nux-v.WATER": {},
+    "WILL": {},
+    "WINDY weather": {},
+    "WINE": {},
+    "WIPING eyes": {},
+    "WRITING": {},
+    "YAWNING": {},
+    "ADHESION of skin of forehead": {},
+    "AIR OR WIND": {
+      "general": [
+        "Sil",
+        "Chin",
+        "Cor-r"
+      ]
+    },
+    "ALIVE": {},
+    "ANÆMIA of the brain": {
+      "general": [
+        "Ph-ac"
+      ]
+    },
+    "ASLEEP": {
+      "general": [
+        "Forehead"
+      ]
+    },
+    "BALANCING sensation in": {},
+    "BALDNESS": {},
+    "BALL": {},
+    "BAND": {},
+    "BEATS against the bed": {},
+    "BEND head backward": {},
+    "BOARD OR BAR before": {},
+    "BOILINGsensation": {
+      "general": [
+        "Apis",
+        "Tub",
+        "Acon"
+      ]
+    },
+    "BUBBLINGsensation is": {
+      "general": [
+        "Occiput"
+      ]
+    },
+    "CARIES": {
+      "general": [
+        "Aur",
+        "Nit-ac"
+      ]
+    },
+    "CEPHALÆMATOMA": {},
+    "CEREBRAL HÆMORRHAGE": {
+      "general": [
+        "Colch",
+        "Lach",
+        "Ip",
+        "Op"
+      ]
+    },
+    "CLUCKING in": {},
+    "COLDNESS": {
+      "general": [
+        "Stann",
+        "Chel",
+        "Agar",
+        "Vertex",
+        "Temples",
+        "Calc-p",
+        "Merc-c",
+        "Rhus-t",
+        "Carb-v",
+        "Stront",
+        "Sides"
+      ]
+    },
+    "COLD air": {
+      "general": [
+        "Hep"
+      ]
+    },
+    "COMPRESSION": {},
+    "CONCUSSION of brain": {
+      "general": [
+        "Cic",
+        "Arn",
+        "Hyper"
+      ]
+    },
+    "CONGESTION": {
+      "general": [
+        "Psor",
+        "Sang",
+        "Cact",
+        "Cimic",
+        "Glon",
+        "Carb-s",
+        "Hell",
+        "Meli",
+        "Coff",
+        "Cupr",
+        "Lyc"
+      ]
+    },
+    "CONSTRICTION": {
+      "general": [
+        "Merc",
+        "Carb-v",
+        "Caust",
+        "Carb-ac",
+        "Graph",
+        "Carb-s",
+        "Nit-ac"
+      ]
+    },
+    "CONTRACTION of scalp": {},
+    "CONVULSIONS of the right side of head": {},
+    "COVERS head": {},
+    "CRACKLING sensation in": {
+      "general": [
+        "Side"
+      ]
+    },
+    "CRAWLING": {},
+    "DANDRUFF": {
+      "general": [
+        "Phos",
+        "Canth",
+        "Kali-s",
+        "Nat-m",
+        "Thuj"
+      ]
+    },
+    "DISTENTION": {
+      "general": [
+        "Chin"
+      ]
+    },
+    "DRAGGING sensation in": {},
+    "DRAWNbackward": {
+      "general": [
+        "Cic",
+        "Lyc"
+      ]
+    },
+    "ELONGATED sensation": {},
+    "EMPTY": {
+      "general": [
+        "Temple"
+      ]
+    },
+    "ENLARGED sensation": {
+      "general": [
+        "Ran-b",
+        "Nux-v",
+        "Agar",
+        "Nux-m",
+        "Bov",
+        "Arg-n",
+        "Arn"
+      ]
+    },
+    "ERUPTION": {
+      "general": [
+        "Sil",
+        "Dulc",
+        "Calc",
+        "Ars",
+        "Sep",
+        "Sul-ac",
+        "Olnd",
+        "Rhus-t",
+        "Crot-t",
+        "Kali-i",
+        "Mez",
+        "Clem",
+        "Staph"
+      ]
+    }
+  }
+}

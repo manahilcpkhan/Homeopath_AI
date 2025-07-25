@@ -1,0 +1,25 @@
+{
+  "Mind": {
+    "WALKING": {
+      "while": [
+        "Phos",
+        "Puls",
+        "Acon",
+        "Nux-v",
+        "Nat-m"
+      ]
+    },
+    "BORES": {
+      "head in pillow": [
+        "Apis",
+        "Tub",
+        "Bell"
+      ]
+    },
+    "COMMOTION": {
+      "painless, in": [
+        "Caust"
+      ]
+    }
+  }
+}

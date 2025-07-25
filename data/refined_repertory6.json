@@ -1,0 +1,1247 @@
+{
+  "KENT": {},
+  "VERTIGO": {},
+  "SUDDEN": {},
+  "SUMMER": {
+    ", spells of, in": {
+      "general": [
+        "Phos"
+      ]
+    },
+    "as if there were a barrier between his organs of sense and external objects": {
+      "general": [
+        "Aeth"
+      ]
+    }
+  },
+  "SWIMMING": {},
+  "SWINGING": {
+    ", like": {
+      "general": [
+        "Calad",
+        "Ferr"
+      ]
+    }
+  },
+  "SYNCOPE": {
+    ", with": {
+      "general": [
+        "Alum",
+        "Ars",
+        "Berb",
+        "Bry",
+        "Canth"
+      ]
+    }
+  },
+  "SYPHILITIC": {},
+  "TALKING": {
+    ", while": {
+      "general": [
+        "Acon",
+        "Agar",
+        "Agn",
+        "Aloe",
+        "Alum",
+        "Am-m",
+        "Anac",
+        "Ant-t",
+        "Arg-m",
+        "Bor",
+        "Cham",
+        "Cocc",
+        "Form",
+        "Par",
+        "Sol-n"
+      ]
+    },
+    "after animated": {
+      "general": [
+        "Bor",
+        "Cham",
+        "Lyc",
+        "Nat-c",
+        "Par",
+        "Thuj"
+      ]
+    },
+    "long": {
+      "general": [
+        "Merl",
+        "Nat-m",
+        "Thuj"
+      ]
+    }
+  },
+  "TEA": {
+    ", after": {
+      "general": [
+        "Calc",
+        "Ign",
+        "Nux-v"
+      ]
+    },
+    "amel.": {
+      "general": [
+        "Agar",
+        "Arg-n",
+        "Coca",
+        "Gels",
+        "Glon",
+        "Nat-c",
+        "Phos"
+      ]
+    },
+    ", on": {
+      "general": [
+        "Pip-m"
+      ]
+    }
+  },
+  "TREMBLING": {},
+  "TURNED": {
+    ", as if bed turned about": {
+      "general": []
+    },
+    "and whirled as if, renewed by thinking about it": {
+      "general": [
+        "Plb"
+      ]
+    }
+  },
+  "TURNING": {
+    ", as if in a circle": {
+      "general": [
+        "Acon",
+        "Aloe"
+      ]
+    },
+    "he turns in a circle": {
+      "general": [
+        "Bell",
+        "Berb"
+      ]
+    },
+    "to right": {
+      "general": [
+        "Berb"
+      ]
+    },
+    "left": {
+      "general": [
+        "Bell",
+        "Lach",
+        "Phos"
+      ]
+    },
+    "on": {
+      "general": []
+    },
+    "in bed, on": {
+      "general": []
+    },
+    "to left, on": {
+      "general": [
+        "Bor",
+        "Calc-p"
+      ]
+    },
+    "on right side, amel.": {
+      "general": []
+    },
+    "on looking at revolving objects": {
+      "general": [
+        "Lyc"
+      ]
+    },
+    "or moving the head": {
+      "general": [
+        "Acon"
+      ]
+    },
+    "quickly": {
+      "general": [
+        "Aloe",
+        "Am-c",
+        "Atro",
+        "Bar-c"
+      ]
+    }
+  },
+  "URINATION": {
+    ", during": {
+      "general": [
+        "Acon"
+      ]
+    },
+    "copious, amel.": {
+      "general": [
+        "Gels"
+      ]
+    },
+    "urging, when": {
+      "general": []
+    }
+  },
+  "VERTEX": {
+    ", from": {
+      "general": [
+        "Calc"
+      ]
+    }
+  },
+  "VEXATION": {},
+  "VISION": {
+    ", obscuration of, with": {
+      "general": []
+    }
+  },
+  "VOMITING": {
+    ", before": {
+      "general": [
+        "Nat-s"
+      ]
+    },
+    "after, amel.": {
+      "general": [
+        "Op"
+      ]
+    },
+    "with": {
+      "general": [
+        "Ail"
+      ]
+    }
+  },
+  "WALKING": {
+    "after": {
+      "general": [
+        "Acon",
+        "Arg-m",
+        "Bry",
+        "Calad",
+        "Calc",
+        "Chin",
+        "Cinnb",
+        "Cop",
+        "Cycl",
+        "Glon",
+        "Ign",
+        "Nux-m",
+        "Petr",
+        "Plat",
+        "Sulph"
+      ]
+    },
+    "across on open place": {
+      "general": []
+    },
+    "eating, after": {
+      "general": [
+        "Con"
+      ]
+    },
+    "narrow path, along": {
+      "general": [
+        "Bar-c"
+      ]
+    },
+    "near a declivity": {
+      "general": [
+        "Sulph"
+      ]
+    },
+    "over a high bridge": {
+      "general": [
+        "Puls",
+        "Staph"
+      ]
+    },
+    "a narrow bridge": {
+      "general": [
+        "Bar-c",
+        "Ferr",
+        "Sulph"
+      ]
+    },
+    "rapidly": {
+      "general": []
+    },
+    "room, in a": {
+      "general": [
+        "Iris",
+        "Mag-m",
+        "Manc",
+        "Merc",
+        "Nat-c",
+        "Nit-ac",
+        "Paeon"
+      ]
+    },
+    "sideways": {
+      "general": [
+        "Kali-c"
+      ]
+    },
+    "slowly, but not when taking violent exercise": {
+      "general": [
+        "Mill"
+      ]
+    },
+    "water, near": {
+      "general": [
+        "Ang"
+      ]
+    },
+    "over": {
+      "general": [
+        "Ang",
+        "Brom"
+      ]
+    },
+    "running": {
+      "general": []
+    },
+    "in the open air, while": {
+      "general": [
+        "Acon"
+      ]
+    },
+    "on an elevation": {
+      "general": []
+    },
+    "in the air, as if feet did not touch the ground, while": {
+      "general": [
+        "Agar",
+        "Asar"
+      ]
+    },
+    "room": {
+      "general": [
+        "Acon",
+        "Brom"
+      ]
+    },
+    "entering, on": {
+      "general": [
+        "Arg-m"
+      ]
+    },
+    "soup amel.": {
+      "general": [
+        "Kali-bi"
+      ]
+    },
+    ", sensation as if": {
+      "general": [
+        "Alum",
+        "Apis",
+        "Calad",
+        "Carb-an",
+        "Con",
+        "Cupr",
+        "Merc",
+        "Mur-ac",
+        "Nat-m",
+        "Nit-ac",
+        "Op",
+        "Sep"
+      ]
+    },
+    "in warm water": {
+      "general": [
+        "Sumb"
+      ]
+    }
+  },
+  "WATER": {
+    ", crossing running": {
+      "general": [
+        "Ang"
+      ]
+    }
+  },
+  "WILL": {
+    ", exerting, the, amel.": {
+      "general": [
+        "Pip-m"
+      ]
+    }
+  },
+  "WINE": {
+    ", amel.": {
+      "general": []
+    }
+  },
+  "WRITING": {},
+  "YAWNING": {
+    ", when": {
+      "general": [
+        "Agar",
+        "Apoc",
+        "Petr"
+      ]
+    }
+  },
+  "HEAD": {},
+  "ABSCESS": {},
+  "AIR OR WIND": {
+    ", passing through head, sensation as of": {
+      "general": [
+        "Anan",
+        "Aur",
+        "Benz-ac",
+        "Colch"
+      ]
+    },
+    "extending to abdomen": {
+      "general": [
+        "Aloe"
+      ]
+    },
+    "rocking, on": {
+      "general": []
+    },
+    "sensitive to draft": {
+      "general": []
+    },
+    "sensation of a current of, above the eyes": {
+      "general": [
+        "Bor"
+      ]
+    },
+    "vertex": {
+      "general": []
+    }
+  },
+  "ALIVE": {
+    ", sensation as if something, were in head": {
+      "general": [
+        "Ant-t",
+        "Asar",
+        "Croc",
+        "Crot-c",
+        "Hyper"
+      ]
+    },
+    "night": {
+      "general": [
+        "Am-c",
+        "Anac",
+        "Cimic",
+        "Hyper",
+        "Lyc",
+        "Par",
+        "Puls"
+      ]
+    },
+    "in bed": {
+      "general": [
+        "Hyper"
+      ]
+    },
+    "brain were an ant-hill, as if": {
+      "general": [
+        "Agar"
+      ]
+    },
+    "crawling in forehead, as of a worm": {
+      "general": [
+        "Alum"
+      ]
+    },
+    "everything in head were, as if": {
+      "general": [
+        "Petr"
+      ]
+    },
+    "pressing, crawling pain, spreading out from centre, as of something alive": {
+      "general": [
+        "Tarax"
+      ]
+    },
+    "walking, while": {
+      "general": [
+        "Nux-v",
+        "Sil",
+        "Spig"
+      ]
+    }
+  },
+  "ASLEEP": {
+    "left side": {
+      "general": [
+        "Calad"
+      ]
+    },
+    "debauch, after a": {
+      "general": []
+    },
+    "lying, while": {
+      "general": [
+        "Cycl",
+        "Lac-c",
+        "Lyss",
+        "Mang",
+        "Merc",
+        "Naja"
+      ]
+    },
+    ", in": {
+      "general": [
+        "Indg",
+        "Lac-d",
+        "Mur-ac",
+        "Sumb"
+      ]
+    },
+    "left half of": {
+      "general": [
+        "Calad"
+      ]
+    },
+    "difficulty to keep the head erect": {
+      "general": [
+        "Glon"
+      ]
+    },
+    "motion, on": {
+      "general": [
+        "Chel",
+        "Crot-h",
+        "Fl-ac",
+        "Lyc",
+        "Rhus-t",
+        "Sep"
+      ]
+    },
+    "pendulum-like": {
+      "general": [
+        "Cann-i"
+      ]
+    }
+  },
+  "BALDNESS": {},
+  "BALL": {
+    ", sensation as of a, rising up": {
+      "general": [
+        "Acon",
+        "Cimic",
+        "Lach",
+        "Plat",
+        "Plb",
+        "Sep",
+        "Staph"
+      ]
+    },
+    "beating against skull on beginning to walk": {
+      "general": [
+        "Plat"
+      ]
+    },
+    "fast in brain": {
+      "general": [
+        "Staph"
+      ]
+    },
+    "lying on right side": {
+      "general": [
+        "Anan"
+      ]
+    },
+    "rolling in brain": {
+      "general": [
+        "Anan",
+        "Bufo",
+        "Hura",
+        "Lyss"
+      ]
+    }
+  },
+  "BAND": {
+    ")": {
+      "general": [
+        "Acet-ac",
+        "Arn"
+      ]
+    },
+    "wall in sleep": {
+      "general": [
+        "Mag-c"
+      ]
+    },
+    "feels as if he could beat head to pieces": {
+      "general": [
+        "Nit-ac"
+      ]
+    },
+    "walks with head thrown backward": {
+      "general": []
+    },
+    ", sensation as of": {
+      "general": [
+        "Acon",
+        "Aesc",
+        "Calc"
+      ]
+    },
+    "11 a.m.": {
+      "general": [
+        "Zinc"
+      ]
+    }
+  },
+  "BOILING": {
+    "boiling water, as of": {
+      "general": [
+        "Acon",
+        "Indg",
+        "Rob"
+      ]
+    },
+    "seething in left side of vertex": {
+      "general": [
+        "Lach"
+      ]
+    },
+    "side lain on": {
+      "general": [
+        "Mag-m"
+      ]
+    },
+    "sleep, during": {
+      "general": [
+        "Hyper"
+      ]
+    }
+  },
+  "BUBBLING": {
+    "leaning back while sitting amel.": {
+      "general": [
+        "Spig"
+      ]
+    },
+    ", bubble bursting in, as if": {
+      "general": []
+    }
+  },
+  "CARIES": {},
+  "COLDNESS": {
+    ", chilliness, etc.": {
+      "general": [
+        "Abrot",
+        "Acon"
+      ]
+    },
+    "morning": {
+      "general": [
+        "Calc",
+        "Carb-v",
+        "Cedr",
+        "Cham",
+        "Chin-s",
+        "Dios",
+        "Glon",
+        "Lach",
+        "Lact",
+        "Lact-ac",
+        "Sumb"
+      ]
+    },
+    "afternoon": {
+      "general": [
+        "Am-c",
+        "Cham",
+        "Chin-s",
+        "Graph",
+        "Lach",
+        "Nat-a",
+        "Nat-m",
+        "Paeon",
+        "Ran-b",
+        "Sil"
+      ]
+    },
+    "evening": {
+      "general": [
+        "Alum",
+        "Ant-c",
+        "Ars-i",
+        "Calc",
+        "Caust",
+        "Chin-s",
+        "Croc",
+        "Dulc",
+        "Fl-ac",
+        "Hyos",
+        "Hyper",
+        "Indg",
+        "Kreos",
+        "Mag-m",
+        "Merc",
+        "Mill",
+        "Nat-c",
+        "Nat-p",
+        "Nux-v",
+        "Phos",
+        "Puls",
+        "Rhus-t",
+        "Stry",
+        "Sulph",
+        "Trom",
+        "Zinc"
+      ]
+    },
+    "air, as from cold": {
+      "general": [
+        "Acon",
+        "Arg-n"
+      ]
+    },
+    "as if cold air passed over brain": {
+      "general": [
+        "Anan",
+        "Meny"
+      ]
+    },
+    "in open": {
+      "general": []
+    },
+    "alternating with heat": {
+      "general": [
+        "Bell",
+        "Calc",
+        "Merc"
+      ]
+    },
+    "begins in head": {
+      "general": []
+    },
+    "spreads from the": {
+      "general": [
+        "Mosch",
+        "Valer"
+      ]
+    },
+    "breakfast, after": {
+      "general": [
+        "Arn"
+      ]
+    },
+    "burning, after": {
+      "general": [
+        "Sulph"
+      ]
+    },
+    "cold cloth around the brain, as if": {
+      "general": [
+        "Glon"
+      ]
+    },
+    "congestion of, with": {
+      "general": [
+        "Glon"
+      ]
+    },
+    "covered, even when": {
+      "general": [
+        "Mang"
+      ]
+    },
+    "headache, during": {
+      "general": []
+    },
+    "heat, with": {
+      "general": [
+        "Chin",
+        "Puls"
+      ]
+    },
+    "heated, from being": {
+      "general": []
+    },
+    "icy": {
+      "general": []
+    },
+    "internally": {
+      "general": [
+        "Arn",
+        "Bell"
+      ]
+    },
+    "lying, while, amel.": {
+      "general": [
+        "Calc"
+      ]
+    },
+    "menses, during": {
+      "general": [
+        "Ant-t",
+        "Calc",
+        "Mag-s",
+        "Sep",
+        "Sulph"
+      ]
+    },
+    "pain, with": {
+      "general": []
+    },
+    "painful parts": {
+      "general": []
+    },
+    "perspiration, with": {
+      "general": [
+        "Merc-c"
+      ]
+    },
+    "pressure of hat, from": {
+      "general": [
+        "Valer"
+      ]
+    },
+    "riding, after": {
+      "general": [
+        "Lyc"
+      ]
+    },
+    "scratching, after": {
+      "general": []
+    },
+    "sitting, while": {
+      "general": [
+        "Mez"
+      ]
+    },
+    "spot, as of a cold": {
+      "general": [
+        "Sulph"
+      ]
+    },
+    "stool, before": {
+      "general": [
+        "Carb-an"
+      ]
+    },
+    "stooping agg.": {
+      "general": [
+        "Alum",
+        "Sep"
+      ]
+    },
+    "walking amel.": {
+      "general": [
+        "Gins"
+      ]
+    },
+    "warm room": {
+      "general": []
+    },
+    "water, as from cold": {
+      "general": [
+        "Tarent"
+      ]
+    },
+    "air, as from a draft": {
+      "general": []
+    },
+    "cold, penetrates painfully": {
+      "general": [
+        "Zinc"
+      ]
+    },
+    "externally": {
+      "general": [
+        "Cinnb",
+        "Cist",
+        "Gels",
+        "Laur",
+        "Sulph"
+      ]
+    },
+    "heat, during": {
+      "general": [
+        "Chin",
+        "Puls"
+      ]
+    },
+    "with external heat": {
+      "general": [
+        "Agar"
+      ]
+    },
+    "ice, as from": {
+      "general": [
+        "Agar",
+        "Glon",
+        "Laur"
+      ]
+    },
+    "spots in small, as of cold finger": {
+      "general": []
+    },
+    "warm room, in": {
+      "general": [
+        "Cist"
+      ]
+    },
+    "right side": {
+      "general": []
+    },
+    "air, like cool": {
+      "general": [
+        "Acon"
+      ]
+    },
+    "as if frozen": {
+      "general": [
+        "Gels",
+        "Nux-v"
+      ]
+    },
+    "cold damp weather": {
+      "general": []
+    },
+    "rising from neck like cold air": {
+      "general": []
+    },
+    "right": {
+      "general": [
+        "Bar-c",
+        "Berb",
+        "Tarent"
+      ]
+    },
+    "but feels burning hot": {
+      "general": [
+        "Bar-c"
+      ]
+    },
+    "one-sided": {
+      "general": []
+    },
+    "spots in": {
+      "general": [
+        "Croc"
+      ]
+    },
+    "above the ear": {
+      "general": [
+        "Asar"
+      ]
+    },
+    "warmth amel.": {
+      "general": [
+        "Lach"
+      ]
+    },
+    "as if without covering upper part": {
+      "general": [
+        "Arum-t"
+      ]
+    },
+    "icy coldness": {
+      "general": [
+        "Agar",
+        "Arn"
+      ]
+    },
+    "when covered": {
+      "general": [
+        "Valer"
+      ]
+    },
+    "motion, during": {
+      "general": [
+        "Sep"
+      ]
+    },
+    "spots, in": {
+      "general": [
+        "Mang"
+      ]
+    },
+    "a small": {
+      "general": [
+        "Mang"
+      ]
+    },
+    "stooping, on": {
+      "general": [
+        "Sep"
+      ]
+    },
+    "extending to sacrum": {
+      "general": [
+        "Acon"
+      ]
+    },
+    "to": {
+      "general": [
+        "Ant-c"
+      ]
+    },
+    "walking in cold air": {
+      "general": []
+    }
+  },
+  "COMMOTION": {
+    ", painless, in": {
+      "general": [
+        "Caust"
+      ]
+    }
+  },
+  "COMPRESSION": {},
+  "CONGESTION": {
+    "rising, on": {
+      "general": [
+        "Eug",
+        "Lyc"
+      ]
+    },
+    "waking, on": {
+      "general": []
+    },
+    "forenoon": {
+      "general": [
+        "Mag-c",
+        "Mag-s"
+      ]
+    },
+    "noon": {
+      "general": [
+        "Cham",
+        "Naja"
+      ]
+    },
+    "agg. toward, gradually ceasing toward evening, with terrible pain, would press head against wall; fears going mad": {
+      "general": [
+        "Stram"
+      ]
+    },
+    "5 p.m., to midnight": {
+      "general": [
+        "Glon"
+      ]
+    },
+    "a stream, from chest to head like a gust of wind with epistaxis": {
+      "general": []
+    },
+    "air, in open": {
+      "general": [
+        "Lil-t",
+        "Nat-c",
+        "Ran-b"
+      ]
+    },
+    "alcoholic liquors agg.": {
+      "general": [
+        "Calc-s"
+      ]
+    },
+    "alternating with congestion to heart": {
+      "general": []
+    },
+    "with icy cold sensation": {
+      "general": []
+    },
+    "anger, after": {
+      "general": []
+    },
+    "anxiety, with": {
+      "general": []
+    },
+    "bed, while in": {
+      "general": [
+        "Anac",
+        "Kali-c",
+        "Lyc",
+        "Mill"
+      ]
+    },
+    "bending head backward, on": {
+      "general": [
+        "Bell"
+      ]
+    },
+    "forward": {
+      "general": [
+        "Lac-c"
+      ]
+    },
+    "blowing nose, on": {
+      "general": [
+        "Nit-ac"
+      ]
+    },
+    "chest, during shocks in": {
+      "general": [
+        "Tab"
+      ]
+    },
+    "coffee, from": {
+      "general": [
+        "Am-c"
+      ]
+    },
+    "constipation, during": {
+      "general": [
+        "Aster",
+        "Crot-h"
+      ]
+    },
+    "convulsions, before": {
+      "general": []
+    },
+    "during": {
+      "general": [
+        "Acon"
+      ]
+    },
+    "coughing, on": {
+      "general": [
+        "Acon",
+        "Ambr",
+        "Anac",
+        "Bell",
+        "Calc",
+        "Calc-s",
+        "Carb-v",
+        "Caust",
+        "Cham",
+        "Chin",
+        "Dulc",
+        "Ferr",
+        "Hyos",
+        "Iod",
+        "Kali-c",
+        "Kali-p",
+        "Kali-s",
+        "Lach",
+        "Laur",
+        "Lyc",
+        "Mag-c",
+        "Mag-m",
+        "Merc",
+        "Mosch",
+        "Nit-ac",
+        "Nux-v",
+        "Phos",
+        "Rhus-t",
+        "Samb",
+        "Seneg",
+        "Sep",
+        "Sil",
+        "Spong",
+        "Stram",
+        "Sulph"
+      ]
+    },
+    "dinner, after": {
+      "general": [
+        "Cycl",
+        "Nux-m",
+        "Psor"
+      ]
+    },
+    "eating, before": {
+      "general": [
+        "Uran"
+      ]
+    },
+    "high living, from": {
+      "general": [
+        "Verat-v"
+      ]
+    },
+    "epilepsy, before": {
+      "general": [
+        "Calc-ar"
+      ]
+    },
+    "epistaxis, with": {
+      "general": [
+        "Ant-c",
+        "Bell",
+        "Bry",
+        "Carb-v",
+        "Croc",
+        "Lach",
+        "Lil-t",
+        "Meli",
+        "Nux-v",
+        "Pic-ac"
+      ]
+    },
+    "feels as if, were coming on": {
+      "general": [
+        "Ign",
+        "Lact-ac"
+      ]
+    },
+    "excitement, during": {
+      "general": [
+        "Asaf"
+      ]
+    },
+    "after a pleasant surprise": {
+      "general": []
+    },
+    "exercise, on taking": {
+      "general": [
+        "Sulph"
+      ]
+    },
+    "fright or grief, from": {
+      "general": []
+    },
+    "heart, at every throb of": {
+      "general": [
+        "Cimic"
+      ]
+    },
+    "as if blood rushed from heart to head": {
+      "general": [
+        "Nux-m"
+      ]
+    },
+    "heat of face, with": {
+      "general": [
+        "Acon",
+        "Asaf",
+        "Canth",
+        "Cham",
+        "Chin-s",
+        "Coff",
+        "Cop"
+      ]
+    },
+    "lifting, after": {
+      "general": [
+        "Nat-c"
+      ]
+    },
+    "lochia, from suppressed": {
+      "general": [
+        "Acon",
+        "Bell",
+        "Bry",
+        "Cimic"
+      ]
+    },
+    "on the back": {
+      "general": []
+    },
+    "on temple (r)": {
+      "general": [
+        "Mur-ac"
+      ]
+    },
+    "menses, before": {
+      "general": []
+    },
+    "suppressed, from": {
+      "general": []
+    }
+  }
+}
